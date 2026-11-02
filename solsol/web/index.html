@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>SOLSOL · 센서 배치 연구</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<body>
+<header><div><b class="brand">SOLSOL</b><span>센서 배치 연구 계산기</span></div><span class="badge">A / B / C · Coverage + Resources</span></header>
+<main>
+<aside aria-label="실험 설정">
+<div class="section-head"><h1>새 실험 조건</h1><button id="reset" class="quiet">예제 복원</button></div>
+<p class="hint">범위·관계·공유 자원을 바꾸고 배치의 절충을 비교하세요. 모든 예제 값은 합성 입력입니다.</p>
+<label>모델<select id="model"><option value="ABC_COVERAGE_RESOURCE_V1">A/B/C 커버리지 · 공유 자원</option></select></label>
+<h2>센서 자원</h2><div class="scroll"><table id="sensors"><thead><tr><th>ID</th><th>범위 m</th><th>높이 m</th><th>비용</th><th>자원</th><th>최소</th><th>최대</th><th></th></tr></thead><tbody></tbody></table></div><button id="add-sensor" class="quiet">+ 센서 종류</button>
+<h2>함께 커버할 센서 관계</h2><p class="hint">지정된 모든 종류가 같은 평가 지점을 커버해야 합니다. 조향·측정 오차 연동은 없습니다.</p><div id="relations"></div><button id="add-relation" class="quiet">+ 관계</button>
+<div class="fields"><label>전체 예산<input id="budget" type="number" min="0" step="any"></label><label>총 공유 자원<input id="total-resource" type="number" min="0" step="any"></label></div><p class="hint">예산·총자원을 비우면 해당 상한을 적용하지 않습니다.</p>
+<div class="fields"><label><input id="los" type="checkbox"> LOS 차폐 반영</label><label><input id="colocation" type="checkbox"> 같은 후보지에 함께 설치</label></div>
+<details open><summary>목적과 목표</summary><div id="objectives" class="checks"></div><div class="fields"><label>커버리지 목표 (0~1)<input id="coverage-goal" type="number" min="0" max="1" step=".01" placeholder="미설정"></label><label>공동 커버리지 목표 (0~1)<input id="joint-goal" type="number" min="0" max="1" step=".01" placeholder="미설정"></label></div></details>
+<details><summary>평가 영역과 지점</summary><p class="hint">XY 평면의 격자 표본입니다. 후보 설치 위치는 영역 밖에도 둘 수 있습니다.</p><div class="fields" id="grid-fields"><label>X 최소<input id="xmin" type="number" value="0"></label><label>X 최대<input id="xmax" type="number" value="800"></label><label>Y 최소<input id="ymin" type="number" value="0"></label><label>Y 최대<input id="ymax" type="number" value="600"></label><label>격자 간격 m<input id="grid-step" type="number" min="1" value="50"></label><label>평가 높이 m<input id="point-height" type="number" value="1"></label></div><button id="grid" class="quiet">격자 지점 다시 생성</button><p id="point-count" class="hint"></p></details>
+<details><summary>후보지 · 설치 용량</summary><div class="scroll"><table id="sites"><thead><tr><th>ID</th><th>X</th><th>Y</th><th>Z</th><th>용량</th><th>설치비</th><th>허용 종류</th><th></th></tr></thead><tbody></tbody></table></div><button id="add-site" class="quiet">+ 후보지</button></details>
+<details><summary>LOS 장애물 · 3D 직육면체</summary><p class="hint">모든 좌표·높이는 m입니다. 지형은 명시적인 높이 블록으로 입력할 수 있습니다.</p><div class="scroll"><table id="obstacles"><thead><tr><th>X min</th><th>X max</th><th>Y min</th><th>Y max</th><th>Z min</th><th>Z max</th><th></th></tr></thead><tbody></tbody></table></div><button id="add-obstacle" class="quiet">+ 장애물</button></details>
+<details open><summary>탐색 설정</summary><div class="fields"><label>알고리즘<select id="algorithm"><option>NSGA-II</option><option>NSGA-III</option></select></label><label>초기 배치<select id="initializer"><option value="random">무작위</option><option value="greedy">Greedy</option><option value="milp">국소 선형 MILP 제안</option></select></label><label>Seed<input id="seed" type="number" min="0" value="1"></label><label>개체 수<input id="population" type="number" min="4" value="48"></label><label>진화 세대<input id="generations" type="number" min="0" value="30"></label><label>초기화 평가 예산<input id="prep-budget" type="number" min="0" value="128"></label><label>NSGA-III 분할 수<input id="partitions" type="number" min="1" value="4"></label></div></details>
+<details><summary>고급 입력 · JSON 가져오기/내보내기</summary><textarea id="advanced" rows="8" aria-label="고급 설정 JSON"></textarea><button id="export-config" class="quiet">현재 폼 → JSON</button><button id="import-config" class="quiet">JSON → 폼</button></details>
+<div class="actions"><button id="validate" class="secondary">조건 확인</button><button id="run">계산 · 저장</button><button id="stop" class="danger" disabled>중지</button></div>
+<p id="validation" class="hint" aria-live="polite">조건을 확인한 뒤 계산을 시작하세요.</p>
+</aside>
+<section class="workspace">
+<div class="section-head"><div><h1>배치와 절충</h1><p id="identity" class="hint">실행 전 · 조건 미리보기</p></div><button id="expand" class="secondary">지도 크게 보기</button></div>
+<div class="statusbar" aria-live="polite"><strong id="status">준비</strong><span id="progress">세대 0 · NFE 0 · 0.0초</span></div>
+<div id="map-wrap"><svg id="map" role="img" aria-label="후보지, 센서 범위, LOS와 커버리지 지도" viewBox="0 0 840 640"></svg><button id="close-map" class="secondary">닫기</button><div class="legend"><span>A <i class="a"></i></span><span>B <i class="b"></i></span><span>C <i class="c"></i></span><span>● 커버됨</span><span>· 미커버</span><span>▧ 장애물</span></div></div>
+<div class="layer-controls"><label><input id="show-ranges" type="checkbox" checked>범위</label><label><input id="show-points" type="checkbox" checked>평가 지점</label><label><input id="show-los" type="checkbox">선택 설치의 LOS</label><select id="installation-select" aria-label="LOS 설치 선택"></select></div>
+<div class="metrics" id="metrics"><div><small>커버리지</small><b>—</b></div><div><small>공동 커버리지</small><b>—</b></div><div><small>비용</small><b>—</b></div><div><small>장비 수</small><b>—</b></div></div>
+<div class="results-head"><h2>누적 경험적 Pareto 배치</h2><span id="archive-count" class="hint">아직 결과가 없습니다.</span></div>
+<div class="filters"><label>정렬<select id="sort"><option value="cost">비용 오름차순</option><option value="coverage">커버리지 내림차순</option><option value="joint_coverage">공동 커버리지 내림차순</option></select></label><label>세대<select id="checkpoint"><option value="all">전체 관측</option></select></label><label><input id="goal-only" type="checkbox">목표 통과만</label><label>Hamming 최소 거리<input id="hamming" type="number" min="0" value="0"></label></div>
+<svg id="pareto" role="img" aria-label="비용과 커버리지 절충 그래프" viewBox="0 0 800 210"></svg>
+<div class="scroll results"><table id="results"><thead><tr><th>원시 행</th><th>커버리지</th><th>공동 커버리지</th><th>비용</th><th>장비 수</th><th>출처</th></tr></thead><tbody></tbody></table></div>
+<div id="evidence" class="hint">선택 배치의 원시 행, 지도와 비용을 같은 실행에 연결합니다.</div>
+<details class="method"><summary>계산의 의미와 한계</summary><p>커버리지는 가중 평가 지점의 비율이며 연속 면적의 정확한 적분이 아닙니다. 공동 커버리지는 설정한 센서 관계별 커버리지의 평균입니다. LOS는 3D 직육면체와 선분의 교차로 판정합니다. 범위 원은 LOS 적용 전 거리 범위입니다.</p><p>누적 Pareto 집합은 탐색에서 관측한 실현가능 배치입니다. 전역 최적성·현장 센서 성능·사람의 이해도는 인증하지 않습니다. MILP의 최적성은 국소 선형 제안에만 해당합니다. 준비·탐색·재생 평가 수는 별개입니다.</p></details>
+<div class="section-head"><h2>저장과 검산</h2><button id="refresh" class="quiet">목록 새로고침</button></div><div class="restore"><select id="saved" aria-label="저장 실행"></select><button id="restore" class="secondary">복원</button><button id="copy-config" class="quiet">결과 조건 → 새 실험</button><button id="download" class="quiet">원시 결과 다운로드</button><button id="replay" class="quiet">전체 X/F/G 재생 검산</button></div><p id="verification" class="hint" aria-live="polite"></p>
+</section></main><div id="error" role="alert" hidden></div>
+</body></html>

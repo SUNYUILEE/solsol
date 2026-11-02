@@ -1,0 +1,18 @@
+{
+  "schema": "SOLSOL_EXTRACTION_CORRECTIONS_V1",
+  "task_id": "TASK-20261102T012346Z-DBE183E1",
+  "decisions": [
+    "Windows rg emits UTF-8 while host subprocess default was cp949. Use explicit UTF-8 environments and byte capture.",
+    "Initial expected-RED setup did not complete due subprocess output decoding; do not claim that setup succeeded. Later independent defect mutation tests were observed failing before corrections.",
+    "Run target tests from target cwd; isolated operations cwd does not put target package on import path.",
+    "Normalize finite point weights by maximum before sum, rejecting nonfinite derived model values.",
+    "Greedy derives performance objective axes by their IDs, supporting reordered objectives and omitted cost.",
+    "Local HTTP GET and POST validate Host; POST also validates Origin and JSON content type.",
+    "Replay validates raw generation/provenance, checkpoint intervals/cardinality and all raw/preparation model rows.",
+    "Diagnostic exact/local enumeration skips only structurally forbidden placements and propagates evaluation failures.",
+    "Legend derives displayed model sensor IDs/colors; filtered selections remain map/table consistent.",
+    "Wheel probe in isolated venv adds existing host dependency directory explicitly because -I disables user-site packages. This is package installation verification with existing dependencies, not a clean dependency-download experiment.",
+    "Lineage comparison initially found one extra trailing blank line in five full extracted modules. Final pre-push whitespace check required removal of all extra terminal blank lines from these modules and the extracted inventory module; no Python statement changed. Repeated full verification and independent hash review bind the normalized files. Named inventory functions remain exact source segments.",
+    "Pre-push token scan falsely matched the embedded SK suffix of a TASK identifier. Require a token boundary before credential prefixes; retain positive credential-pattern and negative task-identifier scanner checks."
+  ]
+}

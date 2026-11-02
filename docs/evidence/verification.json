@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "date": "2026-11-02",
+  "tests": "....................................                                     [100%]\n36 passed in 5.87s",
+  "browser": {
+    "status": "PASS",
+    "browser": "Microsoft Edge headless (real browser)",
+    "checks": [
+      "normal/enlarged map exact DOM binding",
+      "selected-installation LOS layer",
+      "checkpoint, sort and posthoc Hamming selection",
+      "parameter edit, condition check, MOEA, auto-save, all-row replay",
+      "download contains exact confirmed radius and all raw rows",
+      "1920/1440/1280 screenshots and no horizontal document overflow",
+      "fresh server process: checksum read, browser restore and all-row replay",
+      "cooperative stop, verified partial result, auto-save"
+    ],
+    "javascript_errors": [],
+    "run_id": "dcfae32d-a309-434d-bbfb-48706c3015a5",
+    "search_rows": 48,
+    "human_usability": "NOT_MEASURED",
+    "field_validity": "NOT_MEASURED"
+  },
+  "installed_wheel": "Installed-wheel MOEA/replay and packaged browser assets PASS (temporary venv, existing host dependencies)",
+  "environment": {
+    "numpy": "2.4.2",
+    "scipy": "1.17.0",
+    "pymoo": "0.6.1.6",
+    "pytest": "9.0.2",
+    "playwright": "1.58.0"
+  },
+  "source_preservation": {
+    "status": "PASS",
+    "scope": "All pre-snapshotted text/source files below 5 MB excluding results/imports/archive/references/task and runtime trees; exact Git porcelain status",
+    "files_checked": 11352,
+    "changed_files": [],
+    "git_status_sha256": "53b0f24a5e95931596932ac68af556a072eedbb101aa0a8ab6a2869af5c8afed"
+  },
+  "publication_scan": {
+    "status": "PASS",
+    "files_checked": 47,
+    "sensitive_matches": 0
+  },
+  "limits": [
+    "synthetic example, no field validity",
+    "browser automation, no human usability measurement",
+    "sampled-point coverage, prism LOS only",
+    "observed archive is not global optimality",
+    "CI matrix is configured but not yet observed here"
+  ]
+}
