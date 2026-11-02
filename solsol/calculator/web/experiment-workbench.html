@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>실험 진단 · 센서 배치 분석</title><link rel="stylesheet" href="live.css"><link rel="stylesheet" href="experiment-workbench.css"><script defer src="live-core.js"></script><script defer src="experiment-workbench.js"></script></head>
+<body><header class="productHeader"><div><h1>탐색 조건 비교</h1><p>목적 절충 · 목표 도달 · 배치 구조 다양성</p></div><a class="headerHelp" href="live.html">배치 분석으로 돌아가기</a></header>
+<main class="workbenchPage"><section class="heroPanel"><div><span class="eyebrow">저장된 원시 실행 재계산</span><h2 id="decision">결과 불러오는 중</h2><p id="decisionWhy">원시 X/F/G와 저장된 진단 묶음의 해시를 확인합니다.</p></div><span id="integrity" class="statusPill">검증 중</span></section>
+<section><div class="sectionHead"><div><h2>같은 목적식에서 면적·반경·자원 난이도 비교</h2><p class="sectionLead">목적식을 고정하고 현재 배치 프로그램이 계산한 18개 저장 실행을 비교합니다. 각 카드에서 전체 절충해와 목표통과 부분집합을 지도에서 확인할 수 있습니다.</p></div></div><div id="runCards" class="runCards"></div></section>
+
+<section id="solutionMapComparisonSection" class="solutionComparisonSection">
+  <div class="sectionHead">
+    <div>
+      <h2>정량목표 통과 원시해와 검사 반례 개선해 지도 비교</h2>
+      <p class="sectionLead">실험에서 최종 도출된 정량목표(탐지 95%·식별 90%) 통과 누적 원시해(RAW)와, 국소 검사에서 반례(과배치 삭제 가능 또는 이전 지배 가능)가 발견되어 개선된 해(DERIVED)의 배치 지도를 대조하고 개선 위치를 확인합니다.</p>
+    </div>
+    <span id="solutionCompareIntegrity" class="statusPill">검증 완료</span>
+  </div>
+
+  <div class="comparisonToolbar">
+    <div class="selectGroup">
+      <label for="compareRunSelect">실험 조건 선택</label>
+      <select id="compareRunSelect" aria-label="실험 조건 선택"></select>
+    </div>
+    <div class="selectGroup">
+      <label for="compareSolutionSelect">정량목표 통과 원시해 선택</label>
+      <select id="compareSolutionSelect" aria-label="정량목표 통과 원시해 선택"></select>
+    </div>
+  </div>
+
+  <fieldset class="viewControls comparisonViewControls">
+    <legend>배치 지도 표시 항목</legend>
+    <label><input type="checkbox" id="compareCandidates" checked> 후보지 100곳</label>
+    <label><input type="checkbox" id="compareCandidateLabels"> 후보지 번호</label>
+    <label><input type="checkbox" id="compareDefense" checked> 평가영역 강조</label>
+    <label><input type="checkbox" id="compareDemand" checked> 성능 평가점</label>
+    <label>커버 범위<select id="compareLayer">
+      <option value="all">Radar + EO/IR</option>
+      <option value="radar">Radar만</option>
+      <option value="eo">EO/IR만</option>
+      <option value="none">설치 위치만</option>
+    </select></label>
+  </fieldset>
+
+  <div id="solutionDetailCard" class="solutionDetailCard">
+    <div class="detailCardHead">
+      <div id="detailCardTitle" class="detailCardTitle">해 선택 대기 중</div>
+      <span id="detailCardBadge" class="statusBadge">확인 중</span>
+    </div>
+    <p id="detailCardDesc" class="detailCardDesc">불러오는 중...</p>
+    <div id="detailCardMetrics" class="detailMetricsGrid"></div>
+  </div>
+  <div id="comparisonChangeSummary" class="comparisonChangeSummary" hidden></div>
+
+  <div class="comparisonMapGrid">
+    <article class="mapCard rawMapCard">
+      <div class="mapCardHead">
+        <h3>1. 정량목표 통과 누적해 (원시해)</h3>
+        <span class="provenanceBadge rawBadge">RAW_MOEA_OBSERVED</span>
+      </div>
+      <div id="rawMetricsSummary" class="metricsSummary"></div>
+      <div id="rawMapWrap" class="mapWrap"></div>
+    </article>
+
+    <article class="mapCard improvedMapCard">
+      <div class="mapCardHead">
+        <h3>2. 검사 반례 교정해 (개선해)</h3>
+        <span id="improvedBadge" class="provenanceBadge derivedBadge">DERIVED_AUDIT_NOT_MOEA</span>
+      </div>
+      <div id="improvedMetricsSummary" class="metricsSummary"></div>
+      <div id="improvedMapWrap" class="mapWrap"></div>
+    </article>
+  </div>
+
+  <div class="diffSection">
+    <h3>배치 및 성능 세부 대조</h3>
+    <div class="tableWrap">
+      <table class="evidenceTable comparisonTable">
+        <thead>
+          <tr>
+            <th>항목</th>
+            <th>원시해 (검사 전 누적해)</th>
+            <th>개선해 (반례 교정 후)</th>
+            <th>변화 및 개선 효과 (Δ)</th>
+          </tr>
+        </thead>
+        <tbody id="diffTableBody">
+          <tr><td colspan="4">데이터를 불러오는 중입니다.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section><div class="sectionHead"><div><h2>초기 배치 방법의 동일 예산 비교</h2><p class="sectionLead">무작위·Greedy·MILP를 같은 문제, 150세대, 13,892 NFE, 3개 seed로 실행했습니다. 전체 절충해와 95%·90% 통과 부분집합을 분리해 읽습니다.</p></div><span id="initializerIntegrity" class="statusPill">검증 중</span></div><div id="initializerDecision" class="explain">계산 근거를 불러옵니다.</div><div id="initializerComparison"></div></section>
+<section class="twoCol"><article><h2>포화·비지배 변별력</h2><div id="saturation"></div></article><article><h2>목표 영역 도달성</h2><div id="exact"></div></article></section>
+<section><h2>권장 실행 구성</h2><ol id="nextExperiment" class="nextSteps"></ol><p class="boundary">이 비교는 동일한 합성 지도·센서 모형에서 관측한 결과입니다. 저장 해집합의 숫자와 배치 지도를 함께 판단하며, 현장 성능이나 전역 최적성을 대체하지 않습니다.</p></section>
+</main></body></html>

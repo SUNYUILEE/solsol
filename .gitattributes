@@ -1,0 +1,2 @@
+# Preserve exact source/evidence bytes used by migration and provenance hashes.
+* -text

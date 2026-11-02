@@ -1,0 +1,12 @@
+#mapToolsDisclosure{display:none}
+@media(max-width:800px){
+ #mapToolsDisclosure{display:inline-block}
+ .mapTools{flex-wrap:wrap;overflow:visible;flex-shrink:0}
+ .mapTools.mapToolsCollapsed>:not(#mapToolsDisclosure):not(#expandMap){display:none!important}
+ body:not([data-task=settings]) .canvasColumn{overflow-y:auto;overscroll-behavior:contain}
+ body:not([data-task=settings]) #mapStage{flex:1 0 360px;min-height:360px}
+ body:not([data-task=settings]) #mapStage .mapCard{min-height:350px}
+ body:not([data-task=settings]) #mapStage .svgMap{min-height:240px}
+ #mapStage .mapCardTitle,#mapStage .mapReading{height:auto;overflow-wrap:anywhere}
+ #mapStage .mapCardTitle{align-items:flex-start;flex-direction:column}
+}

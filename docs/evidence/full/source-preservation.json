@@ -1,0 +1,726 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "path": "app/integrated/engine/__init__.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/archive.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/archive_lifetimes.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/binary_decision.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/common_initialization.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/comparison_basis.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/configuration.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/configuration_http.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/configuration_view.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/contracts.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/cost_reference.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/cost_reference_solver.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/eoir_grid_comparison.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/execution_resources.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/front_groups.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/front_representatives.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/frozen_refinement.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/grid_comparison.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/guided_control.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/guided_cost_budget.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/hard_constraints.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/http_compat.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/initialization.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/installation_domain.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/legacy.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/live_checkpoint.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/milp_initialization.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/objective_activity.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/packet_encoding.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/placement.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/placement_selection.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/placement_statistics.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/placements.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/quality_assessment.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/quality_jobs.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/quality_judgment.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/quality_method_display.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/quality_progress.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/quality_research.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/quality_values.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/quality_workflow.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/registry.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/research_diagnostics.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/research_explanation.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/research_models.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/resource_study.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/results.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/run_management.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/run_names.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/runtime.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/saved_initialization.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/saved_population.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/solver.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/startup.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/storage_config.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/storage_recovery.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/store.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/subset_fidelity.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/validation_analysis.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/validation_http.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/validation_import.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/validation_service.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/verify_adapters.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine/workflow.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/app.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/contract-bridge.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/demo-core.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/demo.css",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/demo.html",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/demo.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/experiment-workbench.css",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/experiment-workbench.html",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/experiment-workbench.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/hmsp-exec-example.json",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/index.html",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-area-evidence.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-core.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-export.css",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-export.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-front-insight.css",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-front-insight.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-grid-check.css",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-grid-check.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-grid-view.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-hamming.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-initial-context.css",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-initial-context.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-inspector.css",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-inspector.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-point-picker.css",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-point-picker.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-product.css",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-progress.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-quality-lineage.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-replay.css",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-replay.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-responsive.css",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-run-archive.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-run-comparison.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-selection.css",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-selection.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-solution-quality-v73.css",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-solution-quality.css",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-solution-quality.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-timing.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-transport.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-workspace.css",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live-workspace.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live.css",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live.html",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/live.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/model-display.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/program-research.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/prototype-detail.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/prototype.css",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/prototype.html",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/prototype.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/qa-overlap.html",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/qa-responsive.html",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/quality-decision.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/quality-guide.html",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/rf.css",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/rf.html",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/rf.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/style.css",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/v56-quality-gate-fixture.html",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/v56-quality-gate-fixture.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workbench-shell.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-baseline-validation.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-cancel.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-comparison.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-configuration.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-cue-meaning.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-diagnostics.css",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-diagnostics.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-guided-study.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-hmsp.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-hmsp2d.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-installation-domain.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-map-differences.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-model.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-narrow-map.css",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-narrow-map.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-placements.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-quality.css",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-quality.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-research-models.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-resource-study.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-resources.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-run-management.css",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-run-management.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-runtime-latency.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-settings-stability.css",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-settings-stability.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-spatial.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-storage-recovery.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-tradeoff.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-validation.css",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-validation.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace-workflow.js",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace.css",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace.html",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/web/workspace.js",
+      "unchanged": true
+    },
+    {
+      "path": "quality/CODEX_PRODUCT_LOOP.md",
+      "unchanged": true
+    },
+    {
+      "path": "quality/PRODUCT_QUALITY_STANDARD.md",
+      "unchanged": true
+    },
+    {
+      "path": "quality/QUALITY_GATES.yaml",
+      "unchanged": true
+    },
+    {
+      "path": "quality/QUALITY_REPORT.schema.json",
+      "unchanged": true
+    },
+    {
+      "path": "quality/R06_LIVE_CONDITION_SEMANTIC_GATES_20260909.md",
+      "unchanged": true
+    },
+    {
+      "path": "quality/R06_VISIBLE_WORKFLOW_OPERATIONS_SUPPLEMENT_20260909.md",
+      "unchanged": true
+    },
+    {
+      "path": "quality/R06_WORKBENCH_SCOPE_REASSESSMENT_20260909.md",
+      "unchanged": true
+    },
+    {
+      "path": "quality/UI_REAL_WORKLOAD_ADDENDUM_20260909.md",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/engine_client.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/json_transport.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/background_process.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/model_service_client.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/model_io.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/model_derived_api.py",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/COMMON_UI_CONTRACT.md",
+      "unchanged": true
+    },
+    {
+      "path": "app/integrated/ENGINE_ACCESS.md",
+      "unchanged": true
+    }
+  ],
+  "read_only": true,
+  "domains": [
+    "source_preservation"
+  ],
+  "product_sha256": "282be8a7d5de04aeca278da2c7ecf78fb3103cf221e1137dfeda3b7b4f998ff5"
+}

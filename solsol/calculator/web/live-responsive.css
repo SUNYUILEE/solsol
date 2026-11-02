@@ -1,0 +1,35 @@
+/* Keep controls in the document; only maps and tables use local 2D scrolling. */
+.viewControls>label,.timeControls>label,.actions>label{min-width:0;max-width:100%;flex-wrap:wrap}
+.viewControls select,.timeControls select{min-width:0;max-width:100%}
+#plotSolution{width:100%}
+.workspace>*,.workspace .controls>*,.configTable,.tableWrap{min-width:0;max-width:100%}
+/* Absolute screen-reader labels belong to their scrolling table, not the page. */
+.tableWrap{position:relative}
+@media(max-width:850px){
+ #mapInspector[open]{display:grid;grid-template-rows:auto minmax(0,1fr);overflow:hidden}
+ #mapInspector .inspectHeader{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 10px;padding:12px}
+ .inspectHeader>div{display:contents}
+ #mapInspector .inspectHeader h2{grid-column:1;grid-row:1;font-size:18px;align-self:center}
+ #mapInspector .inspectHeader button{grid-column:2;grid-row:1;padding:8px 12px}
+ #mapInspector .inspectHeader p{grid-column:1/-1;max-width:none;margin:0;line-height:1.45}
+ #mapInspector .inspectControls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding:12px}
+ .inspectControls .inspectPairButtons{grid-column:1/-1}
+ .inspectControls .inspectPairButtons button{flex:1;padding:8px}
+ #mapInspector .inspectControls label{min-width:0;flex-wrap:wrap}
+ #mapInspector .inspectControls select{min-width:0;max-width:100%;width:100%}
+ #mapInspector .inspectBody{display:flex;flex-direction:column;overflow:auto;min-height:0;padding:8px}
+ #mapInspector .inspectCanvas{height:60dvh;min-height:320px;flex:none;width:100%}
+ #mapInspector .inspectViewport{height:auto;max-height:none;flex:1;min-height:0}
+ #mapInspector .inspectAside{height:auto;overflow:visible;width:100%;flex:none;padding-bottom:0}
+ #mapInspector .inspectLegend{font-size:13px}
+}
+@media(max-width:760px){
+ .workspace,.workspace .controls{grid-template-columns:minmax(0,1fr)}
+ .productHeader{flex-wrap:wrap;gap:8px}
+ .productHeader>*{min-width:0;max-width:100%}
+ .viewControls>label{width:100%;align-items:flex-start;flex-direction:column}
+ .viewControls select{width:100%}
+ .timeControls>label{flex-wrap:wrap}
+ .sectionHead,.actions{overflow-wrap:anywhere}
+ #costProgress{min-width:0;padding:12px}
+}

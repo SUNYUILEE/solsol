@@ -1,62 +1,34 @@
+"""Full calculator entrypoint. Run commands use the UI's HTTP service."""
 import argparse
 import json
 from pathlib import Path
 
-from .models.coverage import CoverageModel,example_config
-from .engine.runtime import run_experiment,replay
-from .engine.storage import RunStore
-
 
 def main():
-    p=argparse.ArgumentParser(description='SOLSOL abstract sensor placement calculator')
+    p=argparse.ArgumentParser(description=__doc__)
     sub=p.add_subparsers(dest='command',required=True)
-    demo=sub.add_parser('example');demo.add_argument('--output',type=Path)
-    run=sub.add_parser('run');run.add_argument('--config',type=Path)
-    run.add_argument('--data-dir',default='data/runs');run.add_argument('--seed',type=int,default=1)
-    run.add_argument('--population',type=int,default=48);run.add_argument('--generations',type=int,default=30)
-    run.add_argument('--algorithm',choices=['NSGA-II','NSGA-III'],default='NSGA-II')
-    run.add_argument('--initializer',choices=['random','greedy','milp'],default='random')
-    verify=sub.add_parser('replay');verify.add_argument('run_id');verify.add_argument('--data-dir',default='data/runs')
-    ls=sub.add_parser('list');ls.add_argument('--data-dir',default='data/runs')
-    audit=sub.add_parser('audit');audit.add_argument('run_id');audit.add_argument('--data-dir',default='data/runs')
-    audit.add_argument('--row',type=int);audit.add_argument('--exact',action='store_true')
-    audit.add_argument('--budget',type=int,default=512);audit.add_argument('--output',type=Path,required=True)
-    web=sub.add_parser('serve');web.add_argument('--port',type=int,default=8877);web.add_argument('--data-dir',default='data/runs')
+    web=sub.add_parser('serve');web.add_argument('--port',type=int,default=8877);web.add_argument('--data-dir',default='data/full-calculator');web.add_argument('--model-plugin',action='append',default=[])
+    for name in ['example','run','list','replay','audit']:
+        q=sub.add_parser(name);q.add_argument('--url',default='http://127.0.0.1:8877');q.add_argument('--contract',default='ABC_COVERAGE_RESOURCE_V1')
+        if name=='example':q.add_argument('--output',type=Path)
+        if name=='run':q.add_argument('--config',type=Path,required=True);q.add_argument('--request-id')
+        if name in ['replay','audit']:q.add_argument('run_id')
+        if name=='audit':q.add_argument('--options',type=Path)
     args=p.parse_args()
     try:
         if args.command=='serve':
-            from .server import serve
-            serve(args.port,args.data_dir);return
+            from .calculator.launch import serve
+            return serve(args.port,args.data_dir,args.model_plugin)
+        from .calculator.client import EngineClient
+        client=EngineClient(args.contract,args.url)
         if args.command=='example':
-            value=json.dumps(example_config(),ensure_ascii=False,indent=2)
-            if args.output:args.output.write_text(value+'\n',encoding='utf-8')
-            else:print(value)
-            return
-        if args.command=='run':
-            config=json.loads(args.config.read_text(encoding='utf-8')) if args.config else example_config()
-            opt={k:getattr(args,k) for k in ['seed','population','generations','algorithm','initializer']}
-            result=run_experiment(CoverageModel(config),opt);report=replay(result)
-            if report['status']!='PASS':raise ValueError(report['error'])
-            result['verification']=report;RunStore(args.data_dir).save(result)
-            print(json.dumps(dict(run_id=result['run_id'],status=result['status'],nfe=len(result['rows']),
-                                  archive_count=len(result['archive_ids']),verification=report),indent=2));return
-        if args.command=='replay':
-            report=replay(RunStore(args.data_dir).load(args.run_id));print(json.dumps(report,indent=2))
-            if report['status']!='PASS':raise SystemExit(1)
-        if args.command=='list':print(json.dumps(RunStore(args.data_dir).list(),indent=2))
-        if args.command=='audit':
-            from .engine.diagnostics import exact_reference,local_check
-            stored=RunStore(args.data_dir).load(args.run_id)
-            report=replay(stored)
-            if report['status']!='PASS':raise ValueError(report['error'])
-            model=CoverageModel(stored['config'])
-            if args.exact:result=exact_reference(model)
-            else:
-                row=args.row if args.row is not None else next(iter(stored['archive_ids']),None)
-                if row is None or not 0<=row<len(stored['rows']):raise ValueError('Choose an existing raw row')
-                result=local_check(model,stored['rows'][row]['X'],args.budget)
-                result['source_row_id']=row
-            result['source_run_id']=stored['run_id']
-            with args.output.open('x',encoding='utf-8') as stream:json.dump(result,stream,indent=2,allow_nan=False)
-            print(json.dumps(dict(output=str(args.output),evaluations=result['evaluations']),indent=2))
-    except (ValueError,OSError,KeyError) as exc:p.exit(2,f'{exc}\n')
+            registry=client.registry();meta=next(b for b in registry['bundles'] if b['id']==args.contract)
+            result=dict(experiment_contract_id=args.contract,model_config=registry['ui_models'][args.contract]['defaults'],enabled_sensor_ids=[s['id'] for s in meta['sensors']],objective_ids=meta['default_objective_ids'],diagnostic_ids=[],solver_policy='generic_v1',goals=None,optimizer=dict(algorithm='NSGA-II',population=8,generations=2,seed=1,initializer='random'))
+        elif args.command=='run':result=client.submit_configuration(json.loads(args.config.read_text(encoding='utf-8-sig')),args.request_id)
+        elif args.command=='list':result=client.list_runs()
+        elif args.command=='replay':result=client.status(args.run_id)
+        else:result=client.diagnose(args.run_id,json.loads(args.options.read_text(encoding='utf-8-sig')) if args.options else {})
+        text=json.dumps(result,ensure_ascii=False,allow_nan=False,indent=2)
+        if args.command=='example' and args.output:args.output.write_text(text+'\n',encoding='utf-8')
+        else:print(text)
+    except (ValueError,OSError,RuntimeError,KeyError) as exc:p.exit(2,str(exc)+'\n')

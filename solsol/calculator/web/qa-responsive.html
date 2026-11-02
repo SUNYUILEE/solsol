@@ -1,0 +1,29 @@
+<!doctype html><html lang="ko"><meta charset="utf-8"><title>Responsive viewport verification fixture</title>
+<style>body{margin:12px;font:14px system-ui;background:#dfe7ed}header{display:flex;align-items:center;gap:12px;margin-bottom:8px}button,select{min-height:40px}iframe{display:block;border:0;background:white}p{margin:4px 0}#readout{white-space:pre-wrap;position:absolute;left:1100px;top:72px;width:420px;font:13px monospace}</style>
+<header><label>검사 폭 <select id="width"><option>320</option><option selected>390</option><option>768</option><option>1024</option></select></label><label>장면 <select id="scene"><option value="setup">설정</option><option value="maps">배치 지도</option><option value="initial">시작 상세</option><option value="current">현재 상세</option></select></label><button id="measure">측정</button><button id="reload">동일 실행 다시 열기</button><button id="mapScroll">상세 지도 보기</button><button id="closeDialog">상세 닫기</button></header>
+<p>검증 전용 프레임 · 실제 live.html을 작은 뷰포트에서 렌더합니다. 새 계산은 실행하지 않습니다.</p>
+<iframe id="app" title="센서 배치 분석 검증 뷰포트" width="390" height="590"></iframe><pre id="readout"></pre>
+<button id="tableScroll">비용 표 오른쪽 보기</button><button id="dialogTop">상세창 맨 위</button>
+<script>
+'use strict';const app=document.getElementById('app'),width=document.getElementById('width'),scene=document.getElementById('scene');
+const run='4949f0c0-e743-46ed-a2d4-d5185b1735b9';
+function load(){app.src='live.html?qa=responsive36&run='+run+'#setupTitle';}
+width.onchange=()=>{app.width=width.value;};
+scene.onchange=()=>{const d=app.contentDocument,dialog=d.getElementById('mapInspector');if(dialog?.open)dialog.close();if(scene.value==='setup')d.getElementById('setupTitle').scrollIntoView();if(scene.value==='maps')d.querySelector('.maps').scrollIntoView();if(scene.value==='initial')d.getElementById('inspectInitialOpen').click();if(scene.value==='current')d.getElementById('inspectOpen').click();};
+document.getElementById('measure').onclick=()=>{
+ const d=app.contentDocument,w=app.contentWindow,dialog=d.getElementById('mapInspector'),root=dialog.open?dialog:d;
+ const elements=[...root.querySelectorAll('button,select,input,p,h1,h2,h3')].filter(e=>e.getClientRects().length&&!e.closest('svg'));
+ const out=elements.map(e=>{const r=e.getBoundingClientRect(),container=e.closest('.tableWrap,.map,.inspectViewport');return{id:e.id,tag:e.tagName,x:r.x,right:r.right,width:r.width,localScroll:container?{class:container.className,client:container.clientWidth,scroll:container.scrollWidth}:null};}).filter(e=>e.x< -1||e.right>d.documentElement.clientWidth+1);
+ const rect=id=>{const e=d.getElementById(id),r=e.getBoundingClientRect();return{x:r.x,y:r.y,width:r.width,height:r.height,scroll:e.scrollHeight,client:e.clientHeight};};
+ const overflowRoots=[...root.querySelectorAll('*')].filter(e=>e.parentElement&&e.getClientRects().length&&(!e.closest('svg,.tableWrap,.map,.inspectViewport')||e.tagName==='svg')).map(e=>{const r=e.getBoundingClientRect();return{id:e.id,tag:e.tagName,cls:String(e.className),right:r.right,width:r.width,parent:e.parentElement.id,parentClass:e.parentElement.className,parentOverflow:w.getComputedStyle(e.parentElement).overflow};}).filter(e=>e.right>d.documentElement.clientWidth+1);
+ const uncontained=[...root.querySelectorAll('*')].filter(e=>e.getClientRects().length&&!e.closest('svg')&&e.scrollWidth>e.clientWidth+1).map(e=>({id:e.id,tag:e.tagName,cls:e.className,client:e.clientWidth,scroll:e.scrollWidth,overflow:w.getComputedStyle(e).overflowX}));
+ const close=d.getElementById('inspectClose'),cr=close.getBoundingClientRect(),hit=d.elementFromPoint(cr.x+cr.width/2,cr.y+cr.height/2);
+ const containers=[...root.querySelectorAll('.tableWrap,.map,.inspectViewport')].filter(e=>e.getClientRects().length).map(e=>{const r=e.getBoundingClientRect();return{id:e.id,class:e.className,x:r.x,right:r.right,client:e.clientWidth,scroll:e.scrollWidth};});
+ document.getElementById('readout').textContent=JSON.stringify({width:w.innerWidth,client:d.documentElement.clientWidth,scroll:d.documentElement.scrollWidth,initial:d.getElementById('initialTitle').textContent,current:d.getElementById('currentTitle').textContent,dialog:dialog.open,inspector:rect('mapInspector'),map:rect('inspectMap'),identity:d.getElementById('inspectIdentity').textContent,close:rect('inspectClose'),closeHit:!!hit&&(hit===close||close.contains(hit)),containers,checked:elements.length,violations:out.filter(e=>!e.localScroll).length,localExceptions:out.filter(e=>e.localScroll).length,offscreen:out,overflowRoots,uncontained},null,2);
+};
+document.getElementById('mapScroll').onclick=()=>app.contentDocument.querySelector('.inspectViewport').scrollIntoView({block:'start'});
+document.getElementById('closeDialog').onclick=()=>app.contentDocument.getElementById('inspectClose').click();
+document.getElementById('tableScroll').onclick=()=>{const e=app.contentDocument.getElementById('costNowPick').closest('.tableWrap');e.scrollLeft=e.scrollWidth;e.scrollIntoView({block:'center'});};
+document.getElementById('dialogTop').onclick=()=>{app.contentDocument.getElementById('mapInspector').scrollTop=0;};
+document.getElementById('reload').onclick=load;load();
+</script></html>

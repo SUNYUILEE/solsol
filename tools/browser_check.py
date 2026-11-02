@@ -13,8 +13,8 @@ OUT=ROOT/'docs'/'evidence'
 OUT.mkdir(parents=True,exist_ok=True)
 
 
-def start(data):
-    process=subprocess.Popen([sys.executable,'-B','-m','solsol','serve','--port','0','--data-dir',str(data)],
+def start(data,plugins=()):
+    process=subprocess.Popen([sys.executable,'-B','-m','solsol','serve','--port','0','--data-dir',str(data),*[part for plugin in plugins for part in ['--model-plugin',plugin]]],
         cwd=ROOT,env=dict(os.environ,PYTHONUTF8='1',PYTHONDONTWRITEBYTECODE='1'),
         stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True,encoding='utf-8',
         creationflags=getattr(subprocess,'CREATE_NO_WINDOW',0))

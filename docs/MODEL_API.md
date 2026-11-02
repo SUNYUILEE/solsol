@@ -1,5 +1,7 @@
 # 다른 연구 모델 연결
 
+> 0.1의 모델 수식 회귀용 경계입니다. 현재 전체 프로그램의 모델 연결은 `docs/FULL_MODEL_API.md`, 공개 앱·AI 호출은 `docs/FULL_API.md`를 사용합니다.
+
 계산기 경계는 `solsol.engine.contracts.EvaluationModel`입니다. 새 모델 클래스는 계약 ID, 모델/평가기 버전, immutable 입력의 복사본, `PlacementSpace`, 공개 재고 규칙, 순서가 고정된 목적/제약 ID와 `evaluate(X)`를 제공합니다. 기존 모델 프로젝트나 외부 소스는 import하지 않습니다.
 
 ```python

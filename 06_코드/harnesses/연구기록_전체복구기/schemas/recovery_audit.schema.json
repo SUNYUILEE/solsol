@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["status", "strict", "errors", "warnings", "counts", "coverage", "scope_statement"],
+  "properties": {
+    "status": {"enum": ["PASS", "FAIL"]},
+    "strict": {"type": "boolean"},
+    "errors": {"type": "array", "items": {"type": "string"}},
+    "warnings": {"type": "array", "items": {"type": "string"}},
+    "counts": {"type": "object"},
+    "coverage": {
+      "type": "object",
+      "required": ["raw_line_accounting", "event_classification", "classification_to_document_map", "user_message_classification"]
+    },
+    "scope_statement": {"type": "string"}
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "$id": "GIT_PROMOTION_RECEIPT_V1",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "artifacts": {
+      "items": {
+        "properties": {
+          "bytes": {
+            "minimum": 0,
+            "type": "integer"
+          },
+          "path": {
+            "type": "string"
+          },
+          "sha256": {
+            "pattern": "^[0-9a-f]{64}$",
+            "type": "string"
+          }
+        },
+        "required": [
+          "path",
+          "bytes",
+          "sha256"
+        ],
+        "type": "object"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "commit_sha": {
+      "pattern": "^[0-9a-f]{40,64}$",
+      "type": "string"
+    },
+    "plan_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "promotion_class": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "promotion_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "schema": {
+      "const": "GIT_PROMOTION_RECEIPT_V1"
+    },
+    "status": {
+      "const": "PASS"
+    },
+    "tag": {
+      "minLength": 1,
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema",
+    "status",
+    "promotion_id",
+    "promotion_class",
+    "commit_sha",
+    "tag",
+    "plan_sha256",
+    "artifacts"
+  ],
+  "title": "Git promotion receipt",
+  "type": "object"
+}

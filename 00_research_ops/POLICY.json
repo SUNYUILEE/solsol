@@ -1,0 +1,56 @@
+{
+  "default_resource_budget": {
+    "max_command_count": 20,
+    "max_retries_per_failure_signature": 0,
+    "max_wallclock_seconds": 1800
+  },
+  "hard_rules": {
+    "no_action_before_preflight": true,
+    "no_claim_without_evidence": true,
+    "no_destructive_action_without_explicit_authority": true,
+    "no_identical_failure_retry_without_resolution": true,
+    "no_new_research_during_recovery": true,
+    "no_private_reasoning_storage": true,
+    "no_transcript_command_execution": true,
+    "no_unapproved_artifact_substitution": true
+  },
+  "mandatory_read_paths": [
+    "AGENTS.md",
+    "00_research_ops/START_HERE.md"
+  ],
+  "public_event_categories": [
+    "USER_INSTRUCTION",
+    "REQUIREMENT",
+    "METHOD",
+    "EVIDENCE",
+    "IMPLEMENTATION",
+    "EXECUTION",
+    "RESULT",
+    "FAILURE",
+    "DECISION",
+    "BLOCKER",
+    "COLLABORATION",
+    "HANDOFF",
+    "EXCLUSION"
+  ],
+  "required_task_sequence": [
+    "TASK_PACKET",
+    "READ_RECEIPT",
+    "PREFLIGHT",
+    "EXECUTION_OR_READONLY_WORK",
+    "VERIFICATION",
+    "HANDOFF_OR_FINAL_REPORT"
+  ],
+  "schema": "RESEARCH_OPERATIONS_POLICY_V1",
+  "task_states": [
+    "PREREGISTERED",
+    "READ_ACKNOWLEDGED",
+    "PREFLIGHT_PASS",
+    "RUNNING",
+    "VERIFYING",
+    "COMPLETE",
+    "BLOCKED",
+    "FAILED"
+  ],
+  "version": "1.0.0"
+}

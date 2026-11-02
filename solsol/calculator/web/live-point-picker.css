@@ -1,0 +1,9 @@
+#pointPicker{box-sizing:border-box;width:min(960px,calc(100vw - 24px));max-height:calc(100dvh - 32px);padding:20px;border:1px solid #9cb9cd;border-radius:12px;color:#19384b;background:#fff;overflow:auto}
+#pointPicker::backdrop{background:rgba(14,36,53,.55)}
+#pointPicker header{display:flex;align-items:center;justify-content:space-between;gap:12px;position:sticky;top:-20px;background:white;color:#19384b;z-index:1;padding:8px 0}
+#pointPicker h2{margin:0;font-size:1.25rem}#pointPicker p{overflow-wrap:anywhere}
+#pointPickerClose{flex-shrink:0}#pointPicker .tableWrap{max-width:100%;overflow:auto}
+#pointPicker table{min-width:740px;width:100%;border-collapse:collapse}
+#pointPicker th,#pointPicker td{text-align:right;padding:10px 12px;border-bottom:1px solid #d6e2ea;white-space:nowrap}
+#pointPicker th:first-child,#pointPicker td:first-child{text-align:left}
+#pointPicker button{min-height:44px}#pointPicker button:focus-visible{outline:3px solid #161616;outline-offset:2px}

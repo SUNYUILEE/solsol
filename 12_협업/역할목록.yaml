@@ -1,0 +1,2 @@
+roles: [R00, R01, R02, R03, R04, R05, R06]
+self_approval_forbidden: true

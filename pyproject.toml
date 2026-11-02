@@ -4,10 +4,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "solsol-calculator"
-version = "0.1.0"
+version = "0.2.0"
 description = "Reusable multi-objective sensor coverage and shared-resource placement calculator"
 requires-python = ">=3.11"
-dependencies = ["numpy>=2.0,<3", "scipy>=1.14,<2", "pymoo==0.6.1.6"]
+dependencies = ["numpy>=2.0,<3", "scipy>=1.14,<2", "pymoo==0.6.1.6", "psutil>=6,<8", "orjson>=3.10,<4"]
 
 [project.optional-dependencies]
 test = ["pytest>=8,<10", "playwright>=1.45,<2"]
@@ -19,7 +19,7 @@ solsol = "solsol.cli:main"
 include = ["solsol*"]
 
 [tool.setuptools.package-data]
-solsol = ["web/*", "examples/*.json"]
+solsol = ["web/*", "examples/*.json", "calculator/web/*", "calculator/*.md"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

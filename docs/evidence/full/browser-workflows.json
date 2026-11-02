@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "checks": [
+    "original metadata forms: common candidates, A radius, exact ABC inventory, common budget, algorithm/population/generations/seed; scenario save",
+    "confirmed UI submit → live lifecycle → 24 raw observations, 3 checkpoints, durable completed view and exact ABC counts",
+    "actual selected row → coverage points and all ABC markers; normal/enlarged map exact sensor binding",
+    "paired initial/current maps and saved generation replay 2→0→2",
+    "original solution analysis and paged collection controller populated from preserved view",
+    "original quality center → selected local diagnostic job → completed recorded evidence",
+    "saved conditions copied as new draft without losing sensor radius or shared exact inventory",
+    "original scenario open/restore retains detailed model and calculator conditions",
+    "real original workbench at 1920/1440/1280 with no horizontal document overflow",
+    "registered second model switch → independent defaults → original model restore without old device registrations",
+    "fresh independent server process strict raw/checkpoint restore → original UI selected-row map"
+  ],
+  "browser": "real Microsoft Edge headless",
+  "run_id": "1fda4867-8465-45c2-a0de-92471802623c",
+  "raw_id": 7,
+  "nfe": 24,
+  "domains": [
+    "full_ui_workflows",
+    "run_storage_restore",
+    "neutral_model_switch"
+  ],
+  "javascript_errors": [],
+  "http_failures": [],
+  "human_usability": "NOT_MEASURED",
+  "global_optimality": "NOT_CERTIFIED",
+  "product_sha256": "282be8a7d5de04aeca278da2c7ecf78fb3103cf221e1137dfeda3b7b4f998ff5"
+}

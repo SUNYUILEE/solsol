@@ -1,0 +1,404 @@
+{
+  "schema": "SOLSOL_FULL_INDEPENDENT_SCOPE_REVIEW_V1",
+  "date": "2026-11-02",
+  "role_id": "R06",
+  "status": "PASS",
+  "domains": [
+    "independent_scope_review"
+  ],
+  "product_sha256": "282be8a7d5de04aeca278da2c7ecf78fb3103cf221e1137dfeda3b7b4f998ff5",
+  "scope": "Independent bounded scope review of the restored common calculator against the 179-file source inventory, the previous 11 concrete scope findings, active workbench/model switching, public client/API boundaries, preserved quality/evidence services and migration-gate honesty.",
+  "checks": [
+    "Read the source inventory, common UI contract and relevant mapped quality contracts; distinguished copied file/symbol preservation from active capability evidence.",
+    "Confirmed full main CLI uses the same EngineClient and calculator service as the workbench, rather than the old small baseline runtime/store.",
+    "Confirmed public client contract handling/default port/cancel body, confirmed execution identity/idempotency, actual common API route names and explicitly retired direct creation route.",
+    "Reviewed per-contract schema defaults, no-relation metric construction, compiled-builder identity/PROBLEMS registration and explicit unsupported optional capabilities.",
+    "Inspected the compiled-builder OpaqueProblem regression through actual validate/submit/completion/restarted-service restore without exposed _physical.",
+    "Reviewed immutable raw/checkpoint/identity and separate quality/refinement/reference evidence structure; confirmed recorded tests cover all initialization/solver combinations, saved seeds, local/MILP/exact/refinement diagnostics and stop/resume.",
+    "Reviewed actual API tests for validation plans, two-seed execution/export/read, comparisons, empirical reference, quality research and quality-job export; these are full-service evidence separate from baseline formula tests.",
+    "Read real-browser driver and matching 11-check artifact covering original forms, same-service submit, selected-row maps, paired/enlarged views, saved generation replay, quality center, scenario/copy, model switch and fresh-process restoration.",
+    "Visually inspected the refreshed 1440px workbench screenshot; confirmed the reported map-axis floating-tail/overlap regression was corrected.",
+    "Confirmed source-preservation evidence covers all 179 inventoried source files and all reviewed full evidence artifacts bind to the recomputed exact product fingerprint.",
+    "Inspected migration gate and negative tests for missing quality module/control/API evidence, stale/forged proof and invalid model exclusion. Current map distinguishes PRESERVED_NOT_EXECUTED references from active runtime proof and records active owners.",
+    "Confirmed isolated installation artifact reports a fresh venv using declared runtime dependencies and an actual full-service validate/submit/completed run; no host-dependency shortcut is claimed.",
+    "Confirmed previous baseline PASS is not inherited as full calculator parity or scientific validity.",
+    "Reviewed portable research-operations neutral policy/profile/roles, empty initialization/lineage, documentation and recovery wrappers; 38 copied lineage descriptors match target bytes, with zero inherited task files or nonempty approval/failure registries.",
+    "Inspected operations-bootstrap doctor/system-audit PASS and 29-case operations JUnit artifact with zero failures/errors/skips; structure readiness is explicitly not scientific authority or historical recovery approval.",
+    "Reread updated README/AGENTS and quality index/impact statement; recomputed calculator core fingerprint unchanged and retained pre-publication boundary for selected-file scan, Git promotion and remote SHA.",
+    "Reviewed publication-only retained_whitespace parser: CRLF handling is explicit; original source hash plus exact retained offending line/EOF is required; unknown/new/unparsed diagnostics or nonzero output without validated diagnostics fail closed. Positive and three negative regressions are included in the 78-pass test artifact."
+  ],
+  "reviewed_files": [
+    {
+      "path": "tools/calculator_export.py",
+      "sha256": "5b54cb2bc0630aa24798bed8b836808ded55aa7342f44a63a94a4df81c618be4",
+      "bytes": 9813
+    },
+    {
+      "path": "tools/build_capability_map.py",
+      "sha256": "9cd2c1ba54682efd978e7bfd3b0b748f57937abd7845664cce37ed3739f56b98",
+      "bytes": 4631
+    },
+    {
+      "path": "tools/verify_full_export.py",
+      "sha256": "2919e353456e48204b0a3b5dbaf51cb525077bc0f584d8c6b3744fe0fc01aa89",
+      "bytes": 2356
+    },
+    {
+      "path": "tools/full_browser_workflows.py",
+      "sha256": "172d8c56c3795992626c2d9c62ebd28a991bc945d7e873b683192740a155f3cc",
+      "bytes": 10338
+    },
+    {
+      "path": "tools/package_smoke.py",
+      "sha256": "cb2595a77045463d8591613dd37a5b2ef720f6f792502afa206675f4af362c45",
+      "bytes": 2485
+    },
+    {
+      "path": "tests/test_export_harness.py",
+      "sha256": "eb1781dfb03310f391b8078141c790dfbb13ecc250c0bafcab37f59c9fc5f8b2",
+      "bytes": 4017
+    },
+    {
+      "path": "tests/test_full_calculator.py",
+      "sha256": "a8ea2f2c53a7f8fbb100bc8f68fc19919be2e5318562f9ef6cf08da127996489",
+      "bytes": 13345
+    },
+    {
+      "path": "tests/test_full_services.py",
+      "sha256": "4c31fc3322e401761b1fbc2ce56ea8606695cd8cff7df5f151a99b5d505b275e",
+      "bytes": 7166
+    },
+    {
+      "path": "solsol/cli.py",
+      "sha256": "6246f5e99631fcf24c6254632a087904c3781494dae2518268e9fa315bee9c48",
+      "bytes": 2446
+    },
+    {
+      "path": "solsol/calculator/launch.py",
+      "sha256": "6c174616e82cf16ee79f75b025f39b0f062a07c50d6d93ef4c256b2273ad9504",
+      "bytes": 5885
+    },
+    {
+      "path": "solsol/calculator/client.py",
+      "sha256": "6e94cda6c13e3a9b988f23f52b63f5b73edc2694d13f954a6ef199c7f1bc61cb",
+      "bytes": 174
+    },
+    {
+      "path": "solsol/calculator/engine_client.py",
+      "sha256": "2c229c89ca7c8527ceb797a0eee63c079bc91b79bcdb73d2616fc03d9cf39cb3",
+      "bytes": 26482
+    },
+    {
+      "path": "solsol/calculator/model_service_client.py",
+      "sha256": "5a6cf8755248180829b52bd3efa27e8489e50424221cabfc19e741c6b6200a00",
+      "bytes": 21885
+    },
+    {
+      "path": "solsol/calculator/model_capabilities.py",
+      "sha256": "b5d5cfa48f37e4104d6077f9550b5a005febf113a83e2cc9c6e863665154329f",
+      "bytes": 5757
+    },
+    {
+      "path": "solsol/calculator/neutral_geometry.py",
+      "sha256": "14fafd919ad9d3fd7bb779260eb297b6f4b98023a8d16c53142f60947f54fe4a",
+      "bytes": 2590
+    },
+    {
+      "path": "solsol/calculator/openapi.py",
+      "sha256": "505bd640932d65c85dad56cc563f625eb6686ab143bc7a9a1dbd5c0f9dcdf356",
+      "bytes": 3084
+    },
+    {
+      "path": "solsol/calculator/ENGINE_ACCESS.md",
+      "sha256": "540573cdb321ac1f1ae5b276b41da65204dfbf2df0529e752eaff44ed4f001e6",
+      "bytes": 1427
+    },
+    {
+      "path": "solsol/calculator/COMMON_UI_CONTRACT.md",
+      "sha256": "7a8a7d9ea42ff3403b84597e07b2b2c890c81bd0b11eeeb3d343c40c53a3d9c3",
+      "bytes": 18056
+    },
+    {
+      "path": "solsol/calculator/engine/http_compat.py",
+      "sha256": "771b5f7fbbe061e612577b7b833319a9cba37d4131e4159c1b96b3b9b0fb5fbe",
+      "bytes": 16927
+    },
+    {
+      "path": "solsol/calculator/engine/configuration.py",
+      "sha256": "20b321100c8498db5138e715272fd5b217fc6f8d2c18e60187c3ce71f1ee956a",
+      "bytes": 7727
+    },
+    {
+      "path": "solsol/calculator/engine/configuration_http.py",
+      "sha256": "fd7353da1cca981a347bd08bf91783a9e65e7c8e4e6ef80418506d179a217adc",
+      "bytes": 23130
+    },
+    {
+      "path": "solsol/calculator/engine/validation_http.py",
+      "sha256": "89de6c27ef3c4c8f1f06f4f5258a49e574b7a6c9ad22589326e865e9389b8f52",
+      "bytes": 4802
+    },
+    {
+      "path": "solsol/calculator/engine/solver.py",
+      "sha256": "fe9286f30d2a6d912c58762641652f365e521894246c76e10628cf455281a45e",
+      "bytes": 17276
+    },
+    {
+      "path": "solsol/calculator/engine/runtime.py",
+      "sha256": "9d14d9dc908d42beda3e29f9d36068109be44cc4202992302aca441bae5c4493",
+      "bytes": 44940
+    },
+    {
+      "path": "solsol/calculator/engine/installation_domain.py",
+      "sha256": "44656e9058cad9edc344b2ff6c99b344915807d0275c5e6265bb316345d11555",
+      "bytes": 11908
+    },
+    {
+      "path": "solsol/calculator/engine/quality_jobs.py",
+      "sha256": "dc84a8ca3777fde20b1f67ba305f3ccfb785a66295a4a1854474b7d21ef04cd4",
+      "bytes": 16956
+    },
+    {
+      "path": "solsol/calculator/engine/quality_assessment.py",
+      "sha256": "0125cd88f27eca4c2d0279b61df1e623c441a67e1bebc1a25d9c57332846ebb5",
+      "bytes": 3456
+    },
+    {
+      "path": "solsol/calculator/engine/grid_comparison.py",
+      "sha256": "2325eaa2a11e967eaad3fc3d6dc39ca83c9d399e275a6eaf8fdb4e3bc0fe449e",
+      "bytes": 9828
+    },
+    {
+      "path": "solsol/calculator/engine/cost_reference.py",
+      "sha256": "4e3dfe95ed0d76d12de59b3bf3d69667bb4a160f35c3c4b8c0428dfd1d639b99",
+      "bytes": 12194
+    },
+    {
+      "path": "solsol/calculator/web/workspace.html",
+      "sha256": "42980b18b966026d7089f87508d075ec10724f78941865d07d5cbd2fd56d7237",
+      "bytes": 9880
+    },
+    {
+      "path": "solsol/calculator/web/workspace-neutral.js",
+      "sha256": "d03979390fc7c6197ee49cda363241f7b0bb267b6ef321d8eed8fef8232e02dd",
+      "bytes": 6732
+    },
+    {
+      "path": "solsol/calculator/web/workspace-model.js",
+      "sha256": "9fc20bf7fc0f81825a1e081b21f671d5c80392b40b60b9824e3c3edbb2abbb87",
+      "bytes": 2528
+    },
+    {
+      "path": "solsol/calculator/web/workspace-configuration.js",
+      "sha256": "f344bb4d9db1762eec70dc229c7ffc6f0591e757a55c15cbebdaf2c965f66640",
+      "bytes": 55424
+    },
+    {
+      "path": "solsol/calculator/web/live-core.js",
+      "sha256": "cd2998e99e1d1068cfc592ff9edcf46dcd8fa316ef9d3943ab3f547060c263a3",
+      "bytes": 12776
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "d43a24a62d3131443a0b88afe70be17a746db6e63ee7ec1047e5ee500c79de5b",
+      "bytes": 710
+    },
+    {
+      "path": "README.md",
+      "sha256": "527a009a194f1e92e2d64257bdd9a10c22ddc5f9ceb9dd88696b886abb26b5ed",
+      "bytes": 5943
+    },
+    {
+      "path": "docs/FULL_API.md",
+      "sha256": "7523cf5459283c232d12606c64d553418dde77dad0583f122eb34633a56c8c5e",
+      "bytes": 2156
+    },
+    {
+      "path": "docs/FULL_MODEL_API.md",
+      "sha256": "8356c51f093a11583b35a24d94e505eba1820c4f84250ef37e938dbdce568e0b",
+      "bytes": 2572
+    },
+    {
+      "path": "docs/migration/source-inventory.json",
+      "sha256": "e0220e72f3c54219a9079b90d5ac861024e32cb97e3d71ebe52ada6d02c13763",
+      "bytes": 264640
+    },
+    {
+      "path": "docs/evidence/full/tests.json",
+      "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35",
+      "bytes": 7434
+    },
+    {
+      "path": "docs/evidence/full/browser-workflows.json",
+      "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9",
+      "bytes": 1663
+    },
+    {
+      "path": "docs/evidence/full/source-preservation.json",
+      "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be",
+      "bytes": 17683
+    },
+    {
+      "path": "docs/evidence/full/package-install.json",
+      "sha256": "be0de28b378d09b6e7a6ab8a866386cc26d8bada014e301ca5f0d718029a6bce",
+      "bytes": 445
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "5a3d4b2cdc5f7b52db97db466d88278736e093e75bcb4d875a24b2555c3923e7",
+      "bytes": 2057
+    },
+    {
+      "path": "research_ops.py",
+      "sha256": "38315a83c3b9e2717e17f682732bac8bc58a0ffb752297922fe0c83f9f940ff5",
+      "bytes": 359
+    },
+    {
+      "path": "research_recovery.py",
+      "sha256": "da8355419fd980d41060c81eee6f2a23f8e6366c4e46b7e8676026087706c969",
+      "bytes": 433
+    },
+    {
+      "path": "00_research_ops/POLICY.json",
+      "sha256": "3b4f7d3ef0d081625d7dd5e8c9997d8812e53bc0fd14b7fdde0b74b60eb7af6f",
+      "bytes": 1305
+    },
+    {
+      "path": "00_research_ops/PROJECT_PROFILE.json",
+      "sha256": "2bb65b46be0e16279602a715e072680bc4ebb36e01655fdb63b01e068181b832",
+      "bytes": 1145
+    },
+    {
+      "path": "00_research_ops/ROLE_REGISTRY.json",
+      "sha256": "d352686d29f83f225a3bcba9abeb3e4aa3495a08e830e51e0ab238b981058ee2",
+      "bytes": 815
+    },
+    {
+      "path": "00_research_ops/START_HERE.md",
+      "sha256": "90d239c329bdf395087c744adcf3f8da4938735dd78fc71ff159ce366194f35d",
+      "bytes": 296
+    },
+    {
+      "path": "00_research_ops/evidence/PORTABLE_PACKAGE_LINEAGE.json",
+      "sha256": "f2ec27a2592eeaa16268ebe3d176dea037611f294b293f0eb678e1fd0aeefa25",
+      "bytes": 14766
+    },
+    {
+      "path": "00_research_ops/evidence/NEW_PROJECT_INITIALIZATION.json",
+      "sha256": "d8313390b11891c5c77d2a7c0650f4fa2964fed9c7884d65d5f92bc51bd460d8",
+      "bytes": 251
+    },
+    {
+      "path": "docs/evidence/full/operations-bootstrap.json",
+      "sha256": "17329b67ad52d7a8fe63e7be6b9cefe575a18098ff44d01d229b79213360834f",
+      "bytes": 4081
+    },
+    {
+      "path": "docs/evidence/full/operations-tests.xml",
+      "sha256": "e9af96d4e11368662fe824aa7283b413f2f6e4f4be2a16c33e45c5ec43d17db7",
+      "bytes": 5273
+    },
+    {
+      "path": "08_검증/PROGRAM_QUALITY_INDEX.md",
+      "sha256": "d1e60bb2c46b3968bbaa76d7b9083145562bd9257241ed6334cd597518ca9965",
+      "bytes": 862
+    },
+    {
+      "path": "quality/CHANGE_IMPACT_FULL_EXPORT.md",
+      "sha256": "59d4c88fb4b748611867dc9f57c970075e8fe0c353b70da877b13a435616c9b3",
+      "bytes": 1498
+    },
+    {
+      "path": "tools/publish_full_export.py",
+      "sha256": "44793d26729062d4539187ddd37e4b259a82a2e82612b4b3d29958c4d75b5216",
+      "bytes": 6928
+    },
+    {
+      "path": "tests/test_publish_gate.py",
+      "sha256": "5dfd493923b2c96500c2c3a9f7f16657d47bdef5176dc9b5b5ab9114842dd311",
+      "bytes": 1611
+    }
+  ],
+  "evidence": [
+    {
+      "name": "tests.json",
+      "status": "PASS",
+      "product_sha256": "282be8a7d5de04aeca278da2c7ecf78fb3103cf221e1137dfeda3b7b4f998ff5",
+      "checks": 78,
+      "tests": 78
+    },
+    {
+      "name": "browser-workflows.json",
+      "status": "PASS",
+      "product_sha256": "282be8a7d5de04aeca278da2c7ecf78fb3103cf221e1137dfeda3b7b4f998ff5",
+      "checks": 11,
+      "tests": null
+    },
+    {
+      "name": "source-preservation.json",
+      "status": "PASS",
+      "product_sha256": "282be8a7d5de04aeca278da2c7ecf78fb3103cf221e1137dfeda3b7b4f998ff5",
+      "checks": 179,
+      "tests": null
+    },
+    {
+      "name": "package-install.json",
+      "status": "PASS",
+      "product_sha256": "282be8a7d5de04aeca278da2c7ecf78fb3103cf221e1137dfeda3b7b4f998ff5",
+      "checks": 3,
+      "tests": null
+    }
+  ],
+  "prior_findings": {
+    "FULL-01": "RESOLVED: compiled builder bypasses CoverageModel converter validation; real opaque-builder path covered.",
+    "FULL-02": "RESOLVED_WITH_EXPLICIT_LIMIT: neutral-only exact formulation/support reject opaque CP explicitly; no unsupported scientific capability is manufactured.",
+    "FULL-03": "RESOLVED: validation OpenAPI paths align with validations routes; API contract expanded.",
+    "FULL-04": "RESOLVED: neutral cancellation uses empty body and actual public-client regression.",
+    "FULL-05": "RESOLVED: full main CLI shares EngineClient/service; replay is explicitly documented as saved result/replay-status read.",
+    "FULL-06": "RESOLVED: runtime dependencies declared; isolated package/service evidence inspected.",
+    "FULL-07": "RESOLVED: selected contract supplies schema defaults and converter-plugin UI/API test exercises distinct defaults.",
+    "FULL-08": "RESOLVED: dynamic plugin IDs accepted and client/CLI port aligned.",
+    "FULL-09": "RESOLVED: no-relation coverage/cost configuration tested in common compile path.",
+    "FULL-10": "RESOLVED_BY_EXPLICIT_RETIREMENT: old direct neutral creation instructs confirmed common API, avoiding missing RF imports.",
+    "FULL-11": "RESOLVED: current access guide and help describe neutral registered models; command metadata normalizes public repository path."
+  },
+  "remaining_important_defects": [],
+  "assessment": "PASS for the declared generic calculator migration and recorded acceptance workflows at this exact product hash. This review supplies the independent_scope_review domain; the parent must still run the final capability-map publication check after installing this report and perform selected-file/source/remote-publication checks.",
+  "limitations": [
+    "This is not a claim that every function or every input combination across all 179 source files was independently executed or line-by-line audited. Reviewed file descriptors include bounded relevant sections where stated; large-source inspection was targeted.",
+    "Static historical/model-coupled utilities are preserved for reference with PRESERVED_NOT_EXECUTED, not counted as active runtime proof. Active generic services are the recorded replacements/owners. Original unimplemented dedicated quality-set/multi-seed-quality/robust-cost-proof endpoints are not falsely restored.",
+    "Optional model-specific exact formulations, support certificates and external scientific evaluators remain explicitly unsupported unless actually implemented. The opaque-builder test proves structural integration, not arbitrary external model science.",
+    "Browser evidence covers the named workflow and visual sample; exhaustive accessibility, representative-human usability, every filter/page/recovery variant and a PRODUCT_EXIT certification are not established.",
+    "The observed archive and diagnostic evidence do not certify larger-instance global optimality or field validity.",
+    "Independent reviewer read source/artifacts and computed the product fingerprint; implementation runner executed the full tests/browser/package installation. Their exact evidence hashes are pinned here.",
+    "Portable research_ops bootstrap received this bounded follow-up review; final secret/size scan, source working-tree preservation beyond the inventory, Git history/promotion and remote SHA verification remain separate parent responsibilities.",
+    "Future product changes invalidate this hash-bound approval and require appropriate fresh evidence.",
+    "Generated capability-map/parity-report files are rebuilt after this report is copied and are excluded from immutable reviewed-file descriptors to avoid circular proof hashes. The reviewed map-generator source and frozen source inventory remain pinned."
+  ],
+  "operations_followup": {
+    "status": "PASS",
+    "lineage_files_checked": 38,
+    "lineage_mismatches": 0,
+    "operations_tests": 29,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "exported_task_files": 0,
+    "approval_registry_bytes": 0,
+    "failure_registry_bytes": 0,
+    "doctor": "PASS",
+    "system_audit": "PASS",
+    "scientific_authorization": false,
+    "historical_recovery_claimed": false,
+    "scope": "Portable operational bootstrap only; future tasks still require their own exact request, acknowledge/preflight and domain authority."
+  },
+  "publication_followup": {
+    "status": "PASS",
+    "scope": "Review of publication helper and generated log normalization only; no core/UI/quality source byte change approved here.",
+    "retained_original_bytes_exception": "Only trailing-whitespace or EOF-blank diagnostics proved against the pinned original source may be retained. New files, unknown diagnostic kinds and unparsed errors are rejected.",
+    "regressions": "One positive original-line/EOF case and three negative unknown-kind/new-file/unparsed cases.",
+    "full_tests": 78,
+    "product_sha256": "282be8a7d5de04aeca278da2c7ecf78fb3103cf221e1137dfeda3b7b4f998ff5",
+    "actual_push_observed": false
+  }
+}

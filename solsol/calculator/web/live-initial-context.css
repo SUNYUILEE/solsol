@@ -1,0 +1,11 @@
+.mapContext {padding:12px 14px;margin:10px 0 16px;border:1px solid #c1d4e3;border-radius:6px;background:#f3f8fc;color:#17384f}
+.mapCostSummary {padding:6px 8px;background:#eef5fa;color:#17384f;font-size:13px;font-weight:650;line-height:1.5;margin-bottom:6px}
+.maps.fit .map svg {max-height:max(260px,calc(100dvh - 350px))}
+.contextCosts {display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.contextCosts span {display:block;font-size:13px;line-height:1.5}
+.contextCosts strong {display:block;font-size:23px;line-height:1.4;margin-top:4px}
+.maps article .mapContext p {min-height:0;margin:8px 0;font-size:13px;line-height:1.55;white-space:normal}
+.mapContext label {font-size:13px;display:block;margin-bottom:5px}
+.mapContext select {width:100%;min-height:40px;font-size:13px}
+.maps article .mapContext .contextNote {border-top:1px solid #c1d4e3;padding-top:8px;margin-bottom:0}
+@media(max-width:450px){.contextCosts{grid-template-columns:1fr}.contextCosts strong{font-size:21px}}

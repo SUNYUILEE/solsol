@@ -1,0 +1,131 @@
+.qualityDialog{width:min(1150px,94vw);max-width:94vw;max-height:92vh;padding:20px;color:#15394d;overflow:auto}.qualityDialog>.dialogHead{position:sticky;top:-20px;background:white;z-index:4;padding:12px 0}.qualitySection{border:1px solid #c5dce5;border-radius:6px;padding:16px;margin:14px 0;background:#fff}.qualitySection h3{margin:0 0 12px}.qualitySection p{line-height:1.7}.qualitySection table{width:100%;border-collapse:collapse;font-size:13px}.qualitySection th,.qualitySection td{padding:8px;border-bottom:1px solid #dbe7ed;text-align:left;overflow-wrap:anywhere}.qualitySection label{display:inline-flex;flex-direction:column;gap:6px;margin:8px 12px 8px 0}.qualitySection button{margin:6px}.qualityDialog #qualityStatus{padding:12px;background:#eaf5f9}.qualityDialog #qualityWitnessMaps>div{display:inline-block;width:48%;vertical-align:top}.qualityDialog svg{max-width:100%;height:auto}.qualityDialog details{margin-top:12px}.qualityDialog pre{white-space:pre-wrap;overflow-wrap:anywhere}@media(max-width:750px){.qualityDialog{padding:10px}.qualitySection{padding:10px}.qualitySection table{font-size:11px}.qualityDialog #qualityWitnessMaps>div{width:100%}}
+.qualitySection .evidenceTable{overflow-x:auto}.qualitySection td{word-break:normal}.qualityVerdict{padding:12px;background:#eaf5f9;border-left:4px solid #087c96;line-height:1.7}#selectedContribution .evidenceTable{overflow-x:auto}#selectedContribution table{min-width:360px}#selectedContribution td:not(:first-child){white-space:nowrap}
+.collectionChoices{display:grid;gap:6px;margin-bottom:10px}.collectionChoices button{text-align:left;white-space:normal;padding:9px}.collectionChoices button[aria-pressed=true]{background:#dff2f7;border:2px solid #0087a4;font-weight:700}#collectionState{padding:10px 14px;background:#eff7fa;color:#173c50;font-size:14px;min-height:24px;flex-shrink:0}#collectionState[data-state=error],#collectionState[data-state=empty]{background:#fff2d9}#collectionState button{margin-left:12px}
+.qualityJourney>.qualityVerdict{font-size:18px;font-weight:650}.qualityJourney .qualitySection{background:#f8fbfd}.qualityMethodDetails{padding:16px;border:1px solid #c5dce5;margin:12px 0}.qualityMethodDetails>summary{cursor:pointer;font-weight:600}.qualityCompareMaps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.qualityCompareMaps>div>svg{width:100%;height:auto}.qualityJourney table{font-size:14px}.qualityJourney button{white-space:normal;min-height:38px}@media(max-width:850px){.qualityCompareMaps{grid-template-columns:1fr}.qualityJourney>.qualityVerdict{font-size:16px}}
+.qualityCurve{display:block;width:100%;max-width:1000px;min-height:180px;background:#f7fbfd;border:1px solid #c7dce6;border-radius:6px;margin:14px 0}
+.collectionMeaning{margin:0 0 12px;padding:10px;border-left:3px solid #0787a0;background:#fff}.collectionMeaning h3{font-size:15px;margin:0 0 8px}.collectionMeaning p,.selectedMeaning p{line-height:1.65;margin:8px 0}.selectedMeaning{border-top:1px solid #c7dce6;padding-top:8px;margin-top:10px}.selectedMeaning h4{margin:4px 0 8px;font-size:14px}.selectedMeaning table{width:100%;font-size:12px;border-collapse:collapse}.selectedMeaning th,.selectedMeaning td{padding:6px 4px;text-align:left;border-bottom:1px solid #dbe7ed;overflow-wrap:anywhere}.placementControls>details{padding:8px 0}.placementControls summary,.qualityEvidenceFold>summary{cursor:pointer;line-height:1.5;font-weight:600}.qualityNavigation{display:flex;gap:8px;position:sticky;top:50px;z-index:3;background:white;padding:8px 0;flex-wrap:wrap}.qualityNavigation button{padding:10px 16px}.qualityNavigation [aria-pressed=true]{background:#dff2f7;border:2px solid #0087a4;font-weight:700}.qualityContext{padding:12px;background:#eff7fa;line-height:1.65}.qualityEvidenceFold{padding:12px;border-bottom:1px solid #c7dce6}.qualityAnswerLedger{overflow-x:auto}.qualityAnswerLedger th{background:#edf6f9}.qualityDialog [hidden]{display:none!important}.qualityDialog .qualitySection{overflow-wrap:anywhere}.qualityDialog button:focus-visible,.placementControls button:focus-visible,.qualityEvidenceFold summary:focus-visible{outline:3px solid #d28b14;outline-offset:2px}@media(max-width:800px){.qualityNavigation{position:static}.qualityNavigation button{flex:1;padding:8px}.qualityAnswerLedger th,.qualityAnswerLedger td{padding:6px}.qualityJourney>.qualityVerdict{font-size:15px}}
+.qualityBar{position:relative;min-width:220px;height:25px;background:#e6f1f5}.qualityBar>span{display:block;height:100%;background:#81c3d2}.qualityBar>strong{position:absolute;left:8px;top:3px;color:#123c50}
+.nextAction{background:#007f99!important;color:white!important;border:2px solid #00556a!important;box-shadow:0 0 0 3px #b7e7ee;animation:nextActionPulse 2s ease-in-out 3}
+@keyframes nextActionPulse{50%{box-shadow:0 0 0 6px #b7e7ee55}}
+@media(prefers-reduced-motion:reduce){.nextAction{animation:none}}
+#executionGuide{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:10px 14px;background:#eff8fa;border-bottom:1px solid #b7d7df}
+#executionGuide>span{flex:1;min-width:230px;font-weight:600}
+#executionGuide button:disabled{opacity:.5}
+.tradeoffDialog{width:min(1120px,95vw);max-height:92vh;overflow:auto;border:1px solid #8db4c0;border-radius:7px;padding:20px}
+.tradeoffSelectors{display:flex;gap:20px;flex-wrap:wrap;margin:15px 0}
+.tradeoffPlot{overflow-x:auto;background:#f6fafc;border:1px solid #b9d2df;border-radius:6px}
+.tradeoffPlot svg{width:100%;min-width:640px;display:block}
+.tradeoffPlot polyline{cursor:pointer}
+.tradeoffTable{max-height:340px;overflow:auto}
+.qualityAction{display:flex;gap:12px;align-items:center;flex-wrap:wrap;padding:12px;background:#edf8fa;margin:12px 0}
+.qualityAction>span{flex:1;min-width:230px}
+#qualitySavedFirst button{max-width:100%;white-space:normal;overflow-wrap:anywhere;height:auto;text-align:left;line-height:1.5}
+.qualityConcreteAnswer{font-size:17px;font-weight:600;line-height:1.7;color:#153c50}.qualityConcreteMaps h4{margin:8px 0;font-size:15px}.qualityConcreteMaps>div{min-width:0}.qualityConcreteMaps>div>svg{width:100%;height:auto;max-height:430px}.qualityConcreteMaps{align-items:start}@media(max-width:700px){.qualityConcreteMaps{grid-template-columns:1fr!important;display:grid}.qualityConcreteAnswer{font-size:15px}}
+.qualityAvailability{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 12px;padding:10px;background:#eff7fa;border-left:3px solid #0787a0;margin:8px 0;align-items:center}.qualityAvailability p{margin:0;line-height:1.5;overflow-wrap:anywhere}.qualityAvailability p:first-child{grid-row:1}.qualityAvailability p:nth-child(2){grid-row:2}.qualityAvailability button{grid-column:2}.qualityAvailability #qualitySavedAccess{grid-row:1}.qualityAvailability #qualityCostAccess{grid-row:2}@media(max-width:650px){.qualityAvailability{grid-template-columns:minmax(0,1fr)}.qualityAvailability p,.qualityAvailability button{grid-column:1;grid-row:auto!important}}
+body:has(>#executionGuide){grid-template-rows:52px 56px auto auto 48px minmax(0,1fr) 28px}
+body:has(>#executionGuide)>#executionGuide{grid-row:4}body:has(>#executionGuide)>.mapTop{grid-row:5}body:has(>#executionGuide)>.workbench{grid-row:6}body:has(>#executionGuide)>footer{grid-row:7}
+@media(max-height:780px){body:has(>#executionGuide){grid-template-rows:0 42px 24px auto 40px minmax(0,1fr) 24px}}
+body.presentation:has(>#executionGuide){grid-template-rows:0 0 0 0 0 minmax(0,1fr) 28px}body.presentation>#executionGuide{visibility:hidden;overflow:hidden;padding:0;border:0}
+@media(max-width:1100px){body:has(>#executionGuide){grid-template-rows:48px auto auto auto 46px minmax(0,1fr) 25px}}
+@media(max-width:800px){body:has(>#executionGuide){grid-template-rows:auto auto auto auto auto minmax(0,1fr) 24px}#executionGuide{gap:5px;padding:6px!important}#executionGuide button{font-size:11px}#executionGuide>span{font-size:11px}}
+@media(max-width:800px) and (max-height:780px){body:has(>#executionGuide){grid-template-rows:0 42px 24px auto auto minmax(0,1fr) 24px}}
+@media(max-width:800px) and (max-height:600px){body:has(>#executionGuide){grid-template-rows:0 42px 0 auto auto minmax(0,1fr) 24px}}
+/* Shared comparison layout, loaded with the existing quality stylesheet. */
+/* Collection forms are vertical documents, never an unbounded map toolbar. */
+.placementControls{display:block;min-width:0}.placementControls>label{display:flex;align-items:center;gap:8px;margin:8px 0}.placementControls>details{width:100%;box-sizing:border-box}.placementControls .collectionMeaning{width:auto}.placementControls .placementPageNav{margin:8px 0}.placementControls select{min-width:0}
+#mapPlacementTools .placementControls{display:none}
+body[data-task=compare] #solutionBar,body[data-task=compare] #conditionCompareTools,body[data-task=compare] #collectionState{display:none!important}
+body[data-task=compare] .canvasColumn{overflow-y:auto}
+body[data-task=compare] #mapStage{min-height:300px;flex:1 0 300px}
+body[data-task=compare] .mapCardTitle{height:auto;min-height:34px;flex-shrink:0;font-size:13px}
+body[data-task=compare] .mapReading{display:none}
+body[data-task=compare] #mapBadge{font-size:11px}
+body[data-task=compare] .mapTools #compareMaps{display:none}
+#mapPlacementTools{margin:0;background:#edf7fa}
+.comparisonSelectors{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) auto;gap:12px;padding:8px 12px 3px}
+.comparisonSelectors>label{display:flex;flex-direction:column;gap:4px;min-width:0;font-size:13px;font-weight:650}
+.comparisonSelectors select{width:100%;min-width:0;font-size:13px;min-height:34px}
+.comparisonSelectors>label:first-child{border-left:4px solid #007b9e;padding-left:8px}.comparisonSelectors>label:nth-child(2){border-left:4px solid #a76100;padding-left:8px}
+.comparisonActions{display:flex;align-items:end;gap:6px}.comparisonActions button{font-size:12px}
+.comparisonHint{display:flex;gap:8px;align-items:center;flex-wrap:wrap;padding:5px 12px 8px;font-size:12px}.comparisonHint>span{flex:1;min-width:220px}.comparisonHint button{min-height:28px;padding:3px 8px;font-size:12px}
+#comparisonReadout{flex-shrink:0;background:white;border-top:1px solid #bfd6e1;padding:8px 12px;min-width:0}
+#comparisonReadout[hidden]{display:none}
+.comparisonVerdict{display:inline-block;font-size:12px;margin-left:12px;color:#355b6e}
+.comparisonMetricScroll{max-height:142px;overflow:auto;margin-top:5px}.comparisonMetricScroll table{table-layout:fixed;font-size:12px}.comparisonMetricScroll th,.comparisonMetricScroll td{white-space:normal;padding:5px 8px;overflow-wrap:anywhere}.comparisonMetricScroll th:first-child{width:36%}
+.comparisonCoverage{margin:4px 0 0;padding:0}.comparisonCoverage summary{font-size:12px;padding:3px 0}.comparisonCoverage .evidenceTable{max-height:180px}
+#comparisonCollection{width:min(950px,94vw);max-height:88vh;padding:18px}#comparisonCollection>.dialogHead{position:sticky;top:-18px;background:#fff;z-index:4;padding:8px 0}#comparisonCollectionBody .placementControls{margin:0}.checkedSubset{padding:5px 0}.checkedSubset button{font-size:12px;min-height:30px}.checkedSubset .formNote{margin:4px 0}
+#comparisonHelp{max-width:760px;font-size:15px;line-height:1.75}#comparisonHelp li{margin:12px 0}#comparisonHelp button{flex-shrink:0}
+body[data-task=compare] #largeTools label:has(#large_frontFilter),body[data-task=compare] #largeTools label:has(#large_rowSort),body[data-task=compare] #largeTools label:has(#large_structureFilter),body[data-task=compare] #largeTools label:has(#largeSolution){display:none}
+.largePairControls{flex-basis:100%;display:flex;flex-wrap:wrap;gap:8px;align-items:center}.largePairControls .formNote{margin:0}.largePairControls select{max-width:460px}
+body[data-task=solutions] #dockBody:has(.solutionsGrid){display:block;overflow:auto}body[data-task=solutions] .solutionsGrid{min-height:330px;grid-template-rows:330px}
+#comparisonA:focus-visible,#comparisonB:focus-visible,.comparisonActions button:focus-visible,.comparisonHint button:focus-visible{outline:3px solid #bb7900;outline-offset:2px}
+@media(max-width:900px){.comparisonSelectors{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px}.comparisonActions{grid-column:1/-1;justify-content:flex-end}.comparisonHint>span{flex-basis:100%}body[data-task=compare] #mapStage{min-height:620px;flex-direction:column}body[data-task=compare] .mapCard{min-height:300px;flex:1 0 300px}.comparisonMetricScroll th:first-child{width:32%}}
+@media(max-height:780px) and (min-width:901px){.comparisonSelectors{padding-top:5px;gap:8px}.comparisonHint{padding-bottom:4px}.comparisonMetricScroll{max-height:112px}body[data-task=compare] #mapStage{min-height:270px;flex-basis:270px}}
+/* Quality claims: one conclusion, explicit population, direct evidence actions. */
+.qualitySetFlow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:16px 0}.qualitySetFlow>div{border-left:4px solid #16889e;background:#f1f7fa;padding:12px;display:grid;gap:6px}.qualitySetFlow strong{font-size:23px}.qualitySetFlow span{font-size:13px;color:#456475}
+.qualityClaimList{display:grid;gap:0}.qualityClaimList article{display:grid;grid-template-columns:minmax(160px,0.7fr) minmax(220px,1.6fr) minmax(170px,0.8fr);column-gap:20px;border-top:1px solid #ccdfe7;padding:16px 0;align-items:start}.qualityClaimList h4{margin:0;grid-column:1;grid-row:1/3;font-size:15px;line-height:1.6}.qualityClaimList .claimAnswer{font-weight:600;margin:0 0 6px;color:#173b4d}.qualityClaimList p{grid-column:2;margin:0;line-height:1.7}.qualityClaimList button{grid-column:3;grid-row:1/3;white-space:normal;line-height:1.5;text-align:left;min-height:44px}.qualityDecision h3{margin-top:0}.qualityDecision .qualityVerdict{margin-top:6px}.qualityMethodDetails [data-evidence]{scroll-margin-top:16px}.qualityDialog .qualityNavigation{position:sticky;top:0;background:white;z-index:2;padding:8px 0}.qualityDialog td{overflow-wrap:anywhere}
+.qualityQuestions{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 0}.qualityQuestions button{min-height:44px;white-space:normal;flex:1 1 150px}.qualityQuestions [aria-pressed=true]{background:#007f9c;color:white;border-color:#007f9c;font-weight:700}.qualityFocusedAnswer article{display:block;border:1px solid #bed7e2;border-left:4px solid #007f9c;padding:18px;background:#f5fafc;max-width:100%;box-sizing:border-box}.qualityFocusedAnswer h4{font-size:18px;margin-bottom:12px}.qualityFocusedAnswer p{max-width:80ch;margin:10px 0}.qualityFocusedAnswer .claimAnswer{font-size:16px}.qualityFocusedAnswer button{display:block;margin-top:16px;width:auto;max-width:100%}
+.qualityMetricProgress{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin:16px 0}.qualityMetricProgress>div{display:flex;flex-direction:column;gap:8px;background:white;border:1px solid #ccdfe7;padding:12px}.qualityMetricProgress span{font-size:18px;font-weight:600;color:#00738d}.qualityMetricProgress small{color:#385968}
+.qualityFocusedAnswer article[hidden]{display:none!important}
+.qualityFocusedAnswer article{scroll-margin-top:110px}
+.qualityDecision .qualitySetFlow{margin:8px 0}.qualityDecision .qualitySetFlow>div{padding:8px 12px;gap:3px}.qualityDecision .qualitySetFlow strong{font-size:22px}.qualityDecision>.qualityVerdict{padding:10px;margin-bottom:8px}.qualityDecision>p{margin:8px 0;line-height:1.5}.qualityDialog #qualityStatus,.qualityDialog>.qualityContext{padding:6px 10px;margin:6px 0}.qualityDecision.qualitySection{padding:14px}.qualityDecision .qualityQuestions{margin-top:10px}
+@media(max-width:1000px){.qualityClaimList article{grid-template-columns:1fr auto;gap:8px}.qualityClaimList h4{grid-column:1/-1;grid-row:auto}.qualityClaimList p{grid-column:1}.qualityClaimList button{grid-column:2;grid-row:2/4;max-width:190px}.qualitySetFlow{gap:6px}}
+@media(max-width:600px){.qualityClaimList article{display:block}.qualityClaimList p{margin:6px 0}.qualityClaimList button{max-width:100%;width:100%;margin-top:8px}.qualitySetFlow{grid-template-columns:1fr}.qualitySetFlow>div{grid-template-columns:1fr 1fr}.qualitySetFlow span{grid-column:1/-1}.qualityDialog{padding:12px!important}}
+.qualityDialog .qualityNavigation{top:54px}.qualityDialog [data-evidence]{scroll-margin-top:150px}.qualityDialog .qualityMethodDetails [data-evidence]{scroll-margin-top:150px}
+.subsetFidelity {margin:10px 0;padding:10px;border:1px solid #b7d1df;border-radius:5px;background:#fff;min-width:0;overflow-wrap:anywhere}
+.largePlacementOptions{flex-basis:100%;min-width:0;border:1px solid #bdd5df;border-radius:5px;background:#f5fafc}
+.largePlacementOptions>summary{padding:10px;cursor:pointer;font-weight:600}
+.largePlacementOptions>.placementControls{margin:0;border:0;padding:10px}
+#mapDialog[open]{display:flex;flex-direction:column;overflow:hidden}
+#mapDialog>.dialogHead,#largeIdentity{flex-shrink:0}
+#largeTools{flex-shrink:0;max-height:42%;overflow:auto;min-width:0}
+#largeComparison{flex:1 1 0;min-height:180px;height:auto}
+#largeMap{min-width:0}
+/* Give maps a usable viewport; long evidence stays below or in folded controls. */
+body[data-task=map] .canvasColumn{overflow-y:auto}
+body[data-task=map] #mapStage{flex:1 0 520px;min-height:520px}
+.expandedMapReading{flex-shrink:0;padding:7px 10px;text-align:center;background:#edf6fa;border:1px solid #c5d7e1;font-size:13px;line-height:1.5}
+.mapRequestStatus{display:flex;align-items:center;gap:6px;flex:1 1 240px;min-width:0;height:26px;overflow:hidden;font-size:12px}
+.mapRequestStatus>span{min-width:0;flex:1;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.mapRequestStatus>button{flex:0 0 auto;min-height:22px;height:22px;padding:0 6px;font-size:11px}
+.mapRequestStatus[data-state=error]>span{color:#ce594a}
+#mapDialog .dialogHead{flex-wrap:nowrap}
+#largeSolutionNavigation{display:flex;align-items:center;gap:6px;flex:0 0 100%;min-width:0}
+#largeSolutionNavigation>label{display:flex!important;min-width:0;flex:0 1 1000px;white-space:nowrap}
+#largeSolutionNavigation select{min-width:0;width:100%}
+#largeSolutionNavigation>button,#largeSelectionPosition{flex-shrink:0}
+#largeSelectionPosition{font-size:12px;white-space:nowrap}
+@media(max-width:800px){#largeSelectionPosition{max-width:105px;overflow:hidden;text-overflow:ellipsis}}
+#mapDialog #largeComparison{min-height:0;flex:1 1 0}
+#mapDialog #largeComparison>div>svg{flex:1 1 0;height:0;min-height:0;width:100%}
+#mapDialog #largeTools{max-height:30%;padding-bottom:5px}
+#mapDialog[open]{display:grid;grid-template-columns:minmax(220px,280px) minmax(0,1fr);grid-template-rows:auto minmax(0,1fr) auto auto;gap:8px 12px}
+#mapDialog>.dialogHead{grid-column:1 / -1;grid-row:1;gap:8px}
+#mapDialog>.dialogHead h2{margin-right:auto}
+#largeControlsToggle{order:1}
+#mapDialog>.dialogHead [data-close]{order:2}
+#mapDialog #largeTools{grid-column:1;grid-row:2;display:flex;align-content:flex-start;max-height:none;min-height:0;margin:0;overflow:auto;padding:0 8px 4px 0}
+#mapDialog #largeTools>label{width:100%;min-width:0;flex-wrap:wrap}
+#mapDialog #largeTools select{max-width:100%;min-width:0}
+#mapDialog #largeTools>.largePairControls{width:100%;min-width:0}
+#mapDialog .largePairControls label{flex-wrap:wrap;max-width:100%}
+#mapDialog #largeSolutionNavigation{flex-wrap:wrap}
+#mapDialog #largeSolutionNavigation>label{flex:1 1 160px}
+#mapDialog #largeSelectionPosition{white-space:normal}
+#mapDialog #largeMapReading{grid-column:1;grid-row:3;margin:0;text-align:left}
+#mapDialog #largeComparison{grid-column:2;grid-row:2 / 4;min-height:0;min-width:0;height:100%;align-self:stretch}
+#mapDialog #largeIdentity{grid-column:1 / -1;grid-row:4;margin:0;overflow-wrap:anywhere}
+#mapDialog.mapControlsCollapsed{grid-template-columns:minmax(0,1fr);grid-template-rows:auto auto minmax(0,1fr) auto}
+#mapDialog.mapControlsCollapsed #largeTools{display:none}
+#mapDialog.mapControlsCollapsed #largeMapReading{grid-column:1;grid-row:2;text-align:center}
+#mapDialog.mapControlsCollapsed #largeComparison{grid-column:1;grid-row:3}
+@media(max-width:700px){#mapDialog[open]:not(.mapControlsCollapsed){grid-template-columns:minmax(160px,40%) minmax(0,1fr)}#mapDialog>.dialogHead h2{font-size:16px}#largeControlsToggle{white-space:normal}}
+@media(max-width:800px){body[data-task=map] #mapStage{flex-basis:480px;min-height:480px}.expandedMapReading{font-size:12px}}
+.qualityDialog #qualityWitnessMaps,.qualityDialog .qualityCompareMaps{scroll-margin-top:150px}
+.qualityDialog #qualityWitnessMaps>div>svg{width:100%;height:min(44vh,420px)}
+.costReferenceMaps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;overflow-wrap:anywhere}.costReferenceMaps [data-placement-id]>svg{width:100%;height:min(46vh,460px)}.costReferenceMaps>div{min-width:0}.costReferenceMaps p{font-weight:600}.costReferenceMaps .qualityMapLegend{display:flex;flex-wrap:wrap;gap:8px}#costReferenceMapDialog{width:min(1500px,96vw)}@media(max-width:750px){.costReferenceMaps{grid-template-columns:1fr}}
+.subsetFidelity summary {cursor:pointer;font-weight:600;line-height:1.6}
+.subsetFidelity button,.subsetFidelity a {display:inline-block;margin:8px 8px 0 0;max-width:100%;white-space:normal}
+.subsetNumbers {display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:8px;margin:12px 0}
+.subsetNumbers dt {margin:0}.subsetNumbers dd {margin:0;text-align:right;font-weight:700}
+@media(max-width:800px){body{grid-template-columns:minmax(0,1fr)}body>.commandbar{min-width:0;overflow-x:auto}body>.workbench,body>.mapTop,.resultDock{min-width:0}.subsetFidelity{width:100%;max-width:100%}}

@@ -1,5 +1,7 @@
 # ABC_COVERAGE_RESOURCE_V1 / evaluator 1.0.0
 
+> 중립 예제 수식의 계약입니다. 전체 계산기 어댑터의 계약·소스 지문과 CLI/API는 `docs/FULL_MODEL_API.md`를 따릅니다. 전체 계산기의 선택적 영역 목표는 원시 Model G와 별도 통과 집합으로 저장합니다.
+
 모든 좌표와 반경은 Cartesian m, 비용과 공유 자원은 사용자가 정하는 일관된 상대 단위다. 반경은 XY 수평 거리다. 사이트 지면 z + 센서 mounting height가 LOS 출발 높이이며 평가 지점 z가 도착 높이다.
 
 설치 `x[i,s] ∈ {0,1}`. 거리 범위와 선택적 LOS를 통과하는 상수 `v[i,s,p]`를 계산한다.

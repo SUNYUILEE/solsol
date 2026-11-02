@@ -1,0 +1,139 @@
+{
+  "authority_hierarchy": [
+    "00_research_ops",
+    "V6_RECORD_STRUCTURE",
+    "EXPLANATION_PUBLICATION_LAYER"
+  ],
+  "claim_boundaries": {
+    "hooks_are_not_complete_enforcement_boundary": true,
+    "recovery_pass_is_not_execution_result_validation": true,
+    "scope_preflight_required_for_every_new_task": true,
+    "structure_pass_is_not_scientific_pass": true
+  },
+  "explanation_publication_policy": {
+    "read_only_against_research_sources": true,
+    "root": "13_설명문서",
+    "scientific_claims_require_evidence_links": true,
+    "word_document_promotion_requires_document_quality_and_independent_review": true
+  },
+  "meaning": {
+    "00_research_ops": "Controls future tasks, allowed artifacts, execution authority, failures, verification, handoff, and completion claims.",
+    "EXPLANATION_PUBLICATION_LAYER": "Reads approved research evidence and produces audience-oriented comprehensive Word documents without modifying scientific source records.",
+    "V6_RECORD_STRUCTURE": "Preserves and renders goals, requirements, methods, evidence, data, code, runs, verification, failures, decisions, reproduction, and collaboration records."
+  },
+  "promotion_policy": {
+    "approved_canonical_released_state_requires_git": true,
+    "normal_task_completion_requires_git": false,
+    "policy_path": "00_research_ops/policies/GIT_PROMOTION_POLICY_V1.json",
+    "receipt_schema": "00_research_ops/contracts/GIT_PROMOTION_RECEIPT_V1.schema.json"
+  },
+  "record_update_rule": "Future research events are first recorded through 00_research_ops; the recovery/record harness then synchronizes them into the central V6 record structure with REC/EVT traceability.",
+  "recovery_pass_requires": {
+    "all_coverage_lanes": 1.0,
+    "items_excluded_without_reason": 0,
+    "missing_documents": 0,
+    "parse_failures": 0,
+    "status": "PASS",
+    "strict": true,
+    "unresolved_conflicts": 0
+  },
+  "required_record_paths": [
+    {
+      "kind": "file",
+      "path": "project.yaml"
+    },
+    {
+      "kind": "file",
+      "path": "research_recovery.py"
+    },
+    {
+      "kind": "file",
+      "path": ".agents/skills/연구기록_전체복구/SKILL.md"
+    },
+    {
+      "kind": "directory",
+      "path": "01_목표"
+    },
+    {
+      "kind": "directory",
+      "path": "02_상태"
+    },
+    {
+      "kind": "directory",
+      "path": "03_방법"
+    },
+    {
+      "kind": "directory",
+      "path": "04_근거"
+    },
+    {
+      "kind": "directory",
+      "path": "05_데이터"
+    },
+    {
+      "kind": "directory",
+      "path": "06_코드"
+    },
+    {
+      "kind": "directory",
+      "path": "07_실행"
+    },
+    {
+      "kind": "directory",
+      "path": "08_검증"
+    },
+    {
+      "kind": "directory",
+      "path": "09_실패"
+    },
+    {
+      "kind": "directory",
+      "path": "10_결정"
+    },
+    {
+      "kind": "directory",
+      "path": "11_재현"
+    },
+    {
+      "kind": "directory",
+      "path": "12_협업"
+    },
+    {
+      "kind": "file",
+      "path": "08_검증/reports/연구기록복구/연구기록_복구감사.json"
+    },
+    {
+      "kind": "file",
+      "path": "12_협업/역할목록.yaml"
+    },
+    {
+      "kind": "file",
+      "path": "12_협업/역할간_인계기록.jsonl"
+    },
+    {
+      "kind": "directory",
+      "path": "13_설명문서"
+    },
+    {
+      "kind": "file",
+      "path": "00_research_ops/policies/GIT_PROMOTION_POLICY_V1.json"
+    },
+    {
+      "kind": "file",
+      "path": "00_research_ops/contracts/PROMOTION_STATE_MACHINE_V1.json"
+    }
+  ],
+  "role_policy": {
+    "central_historical_roles": "12_협업/역할목록.yaml",
+    "closing_evidence_must_bind_exact_task_id": true,
+    "handoff_ledger": "12_협업/역할간_인계기록.jsonl",
+    "independent_review_role": "R06",
+    "operating_roles": "00_research_ops/ROLE_REGISTRY.json",
+    "self_approval_forbidden": true,
+    "verification_role": "R04"
+  },
+  "schema": "RESEARCH_OPERATING_SYSTEM_RECORD_BINDING_V2",
+  "split_brain_record_store_forbidden": true,
+  "v7_duplicate_numbered_tree_installed": false,
+  "version": "2.0.0"
+}

@@ -1,0 +1,173 @@
+{
+  "domain_profile_required_for_scientific_run": true,
+  "gate_order": [
+    "G00",
+    "G01",
+    "G02",
+    "G03",
+    "G04",
+    "G05",
+    "G06",
+    "G07",
+    "G08",
+    "G09",
+    "G10",
+    "G11"
+  ],
+  "gates": [
+    {
+      "blocking": true,
+      "execution_authority": "NONE",
+      "gate_id": "G00",
+      "name": "project_and_role_lock",
+      "question": "Are the goal, scope, role, exclusions, and completion boundary explicit?",
+      "required_evidence": [
+        "TASK_PACKET",
+        "project instructions",
+        "role registry"
+      ]
+    },
+    {
+      "blocking": true,
+      "execution_authority": "NONE",
+      "gate_id": "G01",
+      "name": "exact_user_requirement_trace",
+      "question": "Is the exact user instruction preserved and separated into requirement, question, correction, approval, or rejection?",
+      "required_evidence": [
+        "exact request descriptor",
+        "READ_RECEIPT",
+        "acceptance criteria"
+      ]
+    },
+    {
+      "blocking": true,
+      "execution_authority": "NONE",
+      "gate_id": "G02",
+      "name": "input_and_evidence_lineage",
+      "question": "Are every input, source, schema, status, permitted use, path, byte count, and SHA-256 pinned?",
+      "required_evidence": [
+        "approved artifact registry",
+        "input descriptors",
+        "source registry"
+      ]
+    },
+    {
+      "blocking": true,
+      "execution_authority": "NONE",
+      "gate_id": "G03",
+      "name": "method_preregistration",
+      "question": "Are method, hypothesis, metrics, falsification, resource budget, stop, and rollback conditions frozen before observing results?",
+      "required_evidence": [
+        "method fingerprint",
+        "TASK_PACKET",
+        "change authorization or ADR when applicable"
+      ]
+    },
+    {
+      "blocking": true,
+      "execution_authority": "TEST_ONLY",
+      "gate_id": "G04",
+      "name": "contract_code_test_alignment",
+      "question": "Do the approved contracts, implementation, schemas, and mutation tests agree exactly?",
+      "required_evidence": [
+        "source hashes",
+        "positive tests",
+        "negative tests",
+        "path audit"
+      ]
+    },
+    {
+      "blocking": true,
+      "execution_authority": "PROBE_ONLY",
+      "gate_id": "G05",
+      "name": "bounded_probe",
+      "question": "Does a preregistered cheap probe show active objectives, constraints, feasible reachability, and nondegenerate search before a full run?",
+      "required_evidence": [
+        "domain profile",
+        "probe plan",
+        "probe RUN",
+        "probe decision"
+      ]
+    },
+    {
+      "blocking": true,
+      "execution_authority": "BOUNDED_RUN_ONLY",
+      "gate_id": "G06",
+      "name": "official_run_provenance",
+      "question": "Are the code, inputs, configuration, environment, seed policy, command, budget, and output namespace immutable and linked?",
+      "required_evidence": [
+        "RUN manifest",
+        "stdout",
+        "stderr",
+        "input and environment descriptors"
+      ]
+    },
+    {
+      "blocking": true,
+      "execution_authority": "AUDIT_ONLY",
+      "gate_id": "G07",
+      "name": "raw_result_integrity",
+      "question": "Can every raw result be replayed with the same evaluator and exact inventory without relabeling?",
+      "required_evidence": [
+        "raw tree inventory",
+        "exact replay",
+        "completion marker"
+      ]
+    },
+    {
+      "blocking": true,
+      "execution_authority": "AUDIT_ONLY",
+      "gate_id": "G08",
+      "name": "domain_quality",
+      "question": "Does the result pass separately approved domain, search-quality, system-performance, and claim-boundary checks?",
+      "required_evidence": [
+        "approved domain gate profile",
+        "quality report",
+        "failure witnesses"
+      ]
+    },
+    {
+      "blocking": true,
+      "execution_authority": "READ_ONLY_REVIEW",
+      "gate_id": "G09",
+      "name": "independent_review",
+      "question": "Did a role that did not author the result review exact bytes without editing the audited target?",
+      "required_evidence": [
+        "independent review",
+        "auditor role",
+        "audited descriptors"
+      ]
+    },
+    {
+      "blocking": true,
+      "execution_authority": "INTEGRATION_TEST_ONLY",
+      "gate_id": "G10",
+      "name": "approved_artifact_only_integration",
+      "question": "Does downstream software read only an approved artifact and avoid silently recomputing scientific results?",
+      "required_evidence": [
+        "approved artifact ID",
+        "integration test",
+        "UI or consumer provenance"
+      ]
+    },
+    {
+      "blocking": true,
+      "execution_authority": "PUBLICATION_ONLY",
+      "gate_id": "G11",
+      "name": "canonical_promotion",
+      "question": "Are every required gate, reproducibility check, evidence link, relevant blocker, and required promotion Git checkpoint closed before canonical or release promotion?",
+      "required_evidence": [
+        "gate chain",
+        "reproduction report",
+        "blocker zero",
+        "promotion receipt",
+        "Git promotion receipt when target state requires it"
+      ]
+    }
+  ],
+  "generic_gate_cannot_supply_domain_thresholds": true,
+  "hooks_are_defense_in_depth_not_authority": true,
+  "promotion_git_policy": "00_research_ops/policies/GIT_PROMOTION_POLICY_V1.json",
+  "schema": "RESEARCH_OPERATIONS_GATE_CATALOG_V7_HARDENED",
+  "version": "7.1.0"
+}

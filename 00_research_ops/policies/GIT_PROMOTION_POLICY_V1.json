@@ -1,0 +1,56 @@
+{
+  "claim_boundaries": {
+    "git_commit_is_not_scientific_approval": true,
+    "scientific_approval_without_required_git_checkpoint_is_not_promotable": true
+  },
+  "commit_every_task": false,
+  "principle": "Git preserves promoted recoverable states; it is not the primary experiment log or large artifact store.",
+  "promotion_levels": {
+    "GIT_PROMOTION_REQUIRED": [
+      "PROJECT_BASELINE",
+      "APPROVED_INPUT_RELEASE",
+      "APPROVED_MODEL_RELEASE",
+      "APPROVED_SEARCH_CONFIGURATION",
+      "SCIENTIFICALLY_APPROVED_RESULT_SET",
+      "UI_APPROVED",
+      "EXPLANATION_DOCUMENT_APPROVED",
+      "PRODUCT_RELEASED"
+    ],
+    "GIT_RELEASE_TAG_REQUIRED": [
+      "PRODUCT_RELEASED"
+    ],
+    "NO_GIT_REQUIRED": [
+      "read_only_task",
+      "draft",
+      "raw_run",
+      "intermediate_result",
+      "unapproved_candidate",
+      "temporary_visual",
+      "routine_handoff"
+    ]
+  },
+  "promotion_requires_checkpoint": true,
+  "remote": {
+    "force_push_forbidden": true,
+    "local_commit_required": true,
+    "remote_push_required_by_default": false
+  },
+  "schema": "GIT_PROMOTION_POLICY_V1",
+  "staging": {
+    "always_exclude_categories": [
+      "secrets",
+      "credentials",
+      "virtualenv",
+      "cache",
+      "node_modules",
+      "build_cache",
+      "runtime_temp"
+    ],
+    "default_max_regular_git_file_bytes": 52428800,
+    "git_add_dot_forbidden": true,
+    "large_artifact_strategy": "external_or_lfs_plus_sha256_manifest",
+    "selective_paths_required": true
+  },
+  "trigger_rule": "A transition from working/quarantined/verified state into an authoritative APPROVED, CANONICAL, UI_APPROVED, DOCUMENT_APPROVED or RELEASED state requires a Git promotion checkpoint before the promotion registry is finalized.",
+  "version": "1.0.0"
+}

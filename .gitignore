@@ -13,3 +13,5 @@ data/
 runs/
 *.log
 test-results/
+docs/evidence/full/browser-progress.json
+docs/evidence/full/full-workflow-failure.png

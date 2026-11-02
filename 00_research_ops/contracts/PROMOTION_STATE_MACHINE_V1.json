@@ -1,0 +1,34 @@
+{
+  "artifact_examples": {
+    "DOC": "approved comprehensive Word document",
+    "R01": "approved candidate/input snapshot",
+    "R02": "approved model/objective/constraint release",
+    "R03": "approved reusable execution/search configuration",
+    "R04_R06": "scientifically approved result set",
+    "R05": "UI-approved payload or integrated software release"
+  },
+  "example_flow": [
+    "WORKING -> QUARANTINED",
+    "QUARANTINED -> VERIFIED",
+    "VERIFIED -> APPROVED [GIT checkpoint required]",
+    "APPROVED -> CANONICAL [GIT checkpoint required if authoritative bytes or metadata changed]",
+    "CANONICAL -> RELEASED [GIT checkpoint + release tag]"
+  ],
+  "git_checkpoint_required_for_target_states": [
+    "APPROVED",
+    "CANONICAL",
+    "RELEASED"
+  ],
+  "normal_task_completion_requires_git_checkpoint": false,
+  "schema": "PROMOTION_STATE_MACHINE_V1",
+  "states": [
+    "WORKING",
+    "QUARANTINED",
+    "VERIFIED",
+    "APPROVED",
+    "CANONICAL",
+    "RELEASED",
+    "REJECTED"
+  ],
+  "version": "1.0.0"
+}

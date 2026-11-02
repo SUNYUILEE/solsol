@@ -1,0 +1,3227 @@
+{
+  "schema": "SOLSOL_FULL_CAPABILITY_MAP_V2",
+  "files": [
+    {
+      "source": "app/integrated/engine/__init__.py",
+      "target": "solsol/calculator/engine/__init__.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "7bc0c4f7686d4bbd8b09d676ae6ec31d320a4964aa9aa79ad3e2a6d5a121b12d",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/archive.py",
+      "target": "solsol/calculator/engine/archive.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "466c8d8f1d588b670d46675de93c03f11166cd26576558178190163c3670746c",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/archive_lifetimes.py",
+      "target": "solsol/calculator/engine/archive_lifetimes.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "2ebeb582ea8a44b228ae2d96986684033f1cefb3830391d62cc8c05084b51de8",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/binary_decision.py",
+      "target": "solsol/calculator/engine/binary_decision.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "51bcf8419a5c0ecbc5b78ed0f9fa469ccbd460b7bb6d259b873cd7b31c0da2e5",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/common_initialization.py",
+      "target": "solsol/calculator/engine/common_initialization.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "0266deb633bb45b92cbec360c5588dc1fb77e516ac4ff234a36a0ec9ae95b215",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/comparison_basis.py",
+      "target": "solsol/calculator/engine/comparison_basis.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "629804c98c9e39e69844d0478a14bfda13615a441fb0cd2640e0fa9702252513",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/configuration.py",
+      "target": "solsol/calculator/engine/configuration.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "20b321100c8498db5138e715272fd5b217fc6f8d2c18e60187c3ce71f1ee956a",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/configuration_http.py",
+      "target": "solsol/calculator/engine/configuration_http.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "fd7353da1cca981a347bd08bf91783a9e65e7c8e4e6ef80418506d179a217adc",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/configuration_view.py",
+      "target": "solsol/calculator/engine/configuration_view.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "7e00bf7001a090616e2c757a578d15daa9239b58153955cb35d744b49de5b6d3",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/contracts.py",
+      "target": "solsol/calculator/engine/contracts.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "171575068a6191b95580980bb4109fc617156cab4a56e1f22202ca23cc416db5",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/cost_reference.py",
+      "target": "solsol/calculator/engine/cost_reference.py",
+      "status": "ADAPTED",
+      "category": "active calculator",
+      "target_sha256": "4e3dfe95ed0d76d12de59b3bf3d69667bb4a160f35c3c4b8c0428dfd1d639b99",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/cost_reference_solver.py",
+      "target": "solsol/calculator/engine/cost_reference_solver.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "287c901eaf69a3428eb5c6c86bc33a69f977cc3aac913c69143c2b277f7da1f5",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/eoir_grid_comparison.py",
+      "target": "solsol/calculator/engine/eoir_grid_comparison.py",
+      "status": "PRESERVED",
+      "category": "preserved legacy compatibility/reference utility; old model capabilities not registered",
+      "target_sha256": "1c084432cd8890a547091c5e5efc398e1ddce4e9f5c57870a4aac151ace9b84a",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/execution_resources.py",
+      "target": "solsol/calculator/engine/execution_resources.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "8c83e33f2db13cf7bd9a0e880d421b457c4a6067449bfd66d1a30d8e69ab4fd0",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/front_groups.py",
+      "target": "solsol/calculator/engine/front_groups.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "34f247775bf2961cbbbc7f80d1592a684a18a87090a7fc94aa6da8ee69c99cb7",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/front_representatives.py",
+      "target": "solsol/calculator/engine/front_representatives.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "6dec74d37986e48653d39f453f88ffe2a1e7b0ad80ad68a49d328cc53269c1dc",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/frozen_refinement.py",
+      "target": "solsol/calculator/engine/frozen_refinement.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "97f34e28e1d6ea9283830ff90ba362ace136c113da3699faab6178e34adbf845",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/grid_comparison.py",
+      "target": "solsol/calculator/engine/grid_comparison.py",
+      "status": "ADAPTED",
+      "category": "active calculator",
+      "target_sha256": "2325eaa2a11e967eaad3fc3d6dc39ca83c9d399e275a6eaf8fdb4e3bc0fe449e",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/guided_control.py",
+      "target": "solsol/calculator/engine/guided_control.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "68854945db0834545b8fb6312ab0b4640ac8f5fe86fd782ec21c1c142c31b6fd",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/guided_cost_budget.py",
+      "target": "solsol/calculator/engine/guided_cost_budget.py",
+      "status": "ADAPTED",
+      "category": "active calculator",
+      "target_sha256": "0201954dbd79d93c840d383d5c1b19330f173a4762949abcbe216ec73b72663f",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/hard_constraints.py",
+      "target": "solsol/calculator/engine/hard_constraints.py",
+      "status": "ADAPTED",
+      "category": "active calculator",
+      "target_sha256": "4ea8a949eb0bde241a59d68ebaaaf2c1fd9059865d95ad7d5ccdd268bd9a9be7",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/http_compat.py",
+      "target": "solsol/calculator/engine/http_compat.py",
+      "status": "ADAPTED",
+      "category": "active calculator",
+      "target_sha256": "771b5f7fbbe061e612577b7b833319a9cba37d4131e4159c1b96b3b9b0fb5fbe",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/initialization.py",
+      "target": "solsol/calculator/engine/initialization.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "e95f7bdc98a0fdd5ce18af56c3d7fc405463ec2122853dc38b27f7210c7938a4",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/installation_domain.py",
+      "target": "solsol/calculator/engine/installation_domain.py",
+      "status": "ADAPTED",
+      "category": "active calculator",
+      "target_sha256": "44656e9058cad9edc344b2ff6c99b344915807d0275c5e6265bb316345d11555",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/legacy.py",
+      "target": "solsol/calculator/engine/legacy.py",
+      "status": "PRESERVED",
+      "category": "preserved legacy compatibility/reference utility; old model capabilities not registered",
+      "target_sha256": "136c11ee6629bce3d577a85e1dd5e159a42b9b41ff9ba1975ed0f5725c22050b",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/live_checkpoint.py",
+      "target": "solsol/calculator/engine/live_checkpoint.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "b7dd19d5230d45c331f3e324bcb4127dde6beec095bada7b5a97ef072d4bbd80",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/milp_initialization.py",
+      "target": "solsol/calculator/engine/milp_initialization.py",
+      "status": "ADAPTED",
+      "category": "active calculator",
+      "target_sha256": "75d546c6fbf9e678f9145bffb69db634815a771ba7f195ebb4eb79f9cb721421",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/objective_activity.py",
+      "target": "solsol/calculator/engine/objective_activity.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "6e539fe80538eee6d160ce92ec1b31d9db47249bd19fc26da0aacbb96cc2e0d2",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/packet_encoding.py",
+      "target": "solsol/calculator/engine/packet_encoding.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "eb3770cc761e1f424b5174716138d3cfe8937b0203fc62f7e61abce00d0a1b27",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/placement.py",
+      "target": "solsol/calculator/engine/placement.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "984696b442ca7a313a58a82a3e3f052c4c6c43e9c72e4c985aa8998258f27784",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/placement_selection.py",
+      "target": "solsol/calculator/engine/placement_selection.py",
+      "status": "ADAPTED",
+      "category": "active calculator",
+      "target_sha256": "5d3649ebd1a76464166f4d1a4126fef005e7e1d3edca5c2c02d27aa857f778a3",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/placement_statistics.py",
+      "target": "solsol/calculator/engine/placement_statistics.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "c75297732e03fb8a38b3e0de959a6ac72bada81371d3f6e3fed7f34c938e2b36",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/placements.py",
+      "target": "solsol/calculator/engine/placements.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "26aef0e3f0e507cf57eca68074201d2856958a8e3fe8e99b7daf0817a90fa1ea",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/quality_assessment.py",
+      "target": "solsol/calculator/engine/quality_assessment.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "0125cd88f27eca4c2d0279b61df1e623c441a67e1bebc1a25d9c57332846ebb5",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/quality_jobs.py",
+      "target": "solsol/calculator/engine/quality_jobs.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "dc84a8ca3777fde20b1f67ba305f3ccfb785a66295a4a1854474b7d21ef04cd4",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/quality_judgment.py",
+      "target": "solsol/calculator/engine/quality_judgment.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "2e10cf8cc448097c0fea68d0d23cdf251a35ead971289d33d1339865f433bed3",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/quality_method_display.py",
+      "target": "solsol/calculator/engine/quality_method_display.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "24b1785081f22e84ca8946712ab54f354e051075e8ece0a841ce2a5085528850",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/quality_progress.py",
+      "target": "solsol/calculator/engine/quality_progress.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "113229573d551bbb8438cf37fea431ce4f3fb54f844ab519ea75b34590140c4f",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/quality_research.py",
+      "target": "solsol/calculator/engine/quality_research.py",
+      "status": "ADAPTED",
+      "category": "active calculator",
+      "target_sha256": "79ad4065a09df0b95bee9917155fe183936959aace93a52b36e0caee537e9a91",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/quality_values.py",
+      "target": "solsol/calculator/engine/quality_values.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "395d3d22ac67f53cf53d6d13b589765856dfc60c8cbec87589203d4b3a21b073",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/quality_workflow.py",
+      "target": "solsol/calculator/engine/quality_workflow.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "136891820436b0c1fa71aa773b0270a88f948a0b54e4f5394b53f9c5125de062",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/registry.py",
+      "target": "solsol/calculator/engine/registry.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "486f5984920e43e932371a8c40baf2a2d07009afaf6913fcd8c81043bab3d995",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/research_diagnostics.py",
+      "target": "solsol/calculator/engine/research_diagnostics.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "2754c8ae2e60a9e8e03b92a03aadabd40bdb23516bbec7357dc70b2db8692c9f",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/research_explanation.py",
+      "target": "solsol/calculator/engine/research_explanation.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "312285dc42a776ae156e919a1d3eed1b6eebabbd1a39595de7d7cf12b91c9a95",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/research_models.py",
+      "target": "solsol/calculator/engine/research_models.py",
+      "status": "PRESERVED",
+      "category": "preserved legacy compatibility/reference utility; old model capabilities not registered",
+      "target_sha256": "3104d2dbbea96999301176e4224f3eae8a5f3fcc8ded7cd3e86110bc6d734e76",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/resource_study.py",
+      "target": "solsol/calculator/engine/resource_study.py",
+      "status": "ADAPTED",
+      "category": "active calculator",
+      "target_sha256": "e17fc0dd1d405ec74ec9784f50acf0c6e32b51251ce54fcf08e5fb3601e18ea0",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/results.py",
+      "target": "solsol/calculator/engine/results.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "60e05aed7d7837366a2b0c1d6e91305316a926dcd9c9917a5c1acf099e7028b2",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/run_management.py",
+      "target": "solsol/calculator/engine/run_management.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "a33fe042b02bd67299027abfe1747308c899cea723bf24c75ba41b1031d73b7c",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/run_names.py",
+      "target": "solsol/calculator/engine/run_names.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "b88d09eb6f36d7e5a405f191f5bd2ee846fcd3432f6bff40a8ca5490919a4f20",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/runtime.py",
+      "target": "solsol/calculator/engine/runtime.py",
+      "status": "ADAPTED",
+      "category": "active calculator",
+      "target_sha256": "9d14d9dc908d42beda3e29f9d36068109be44cc4202992302aca441bae5c4493",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/saved_initialization.py",
+      "target": "solsol/calculator/engine/saved_initialization.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "24c63a861f938b990bfbd6213636906b0a3ecfef64d541d1b3a2eebb18d668c2",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/saved_population.py",
+      "target": "solsol/calculator/engine/saved_population.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "ba897967fb525865d80083bf3e59812748dc9ac3a49242e8c760b2908fa5ca0f",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/solver.py",
+      "target": "solsol/calculator/engine/solver.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "fe9286f30d2a6d912c58762641652f365e521894246c76e10628cf455281a45e",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/startup.py",
+      "target": "solsol/calculator/engine/startup.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "ce3e1a709aa5800aeff261a068a906941e172ac44ac0aa0803afed96563a4d76",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/storage_config.py",
+      "target": "solsol/calculator/engine/storage_config.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "0b2a26757e4cef8b61dc1883c4282b5e81fd3feb452624065f1c1d977a836940",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/storage_recovery.py",
+      "target": "solsol/calculator/engine/storage_recovery.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "b47ba45776f6fe946052aecb335a0e9e1a99409c33b1e0b3c3c438396470c7d0",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/store.py",
+      "target": "solsol/calculator/engine/store.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "ccc29922b46f48af4af81908eda119c33e8d4eec2a0dbae4796d10b25d0bd44e",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/subset_fidelity.py",
+      "target": "solsol/calculator/engine/subset_fidelity.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "ba8cdbd8b5cab0cc71ba9f3b471eabcda28dbe482bc5fa8aa9902b70a61b6de2",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/validation_analysis.py",
+      "target": "solsol/calculator/engine/validation_analysis.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "0d1f527e32681a0afa60d4dafbd1831211f6ff9c5bac30c79452d64759e1406e",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/validation_http.py",
+      "target": "solsol/calculator/engine/validation_http.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "89de6c27ef3c4c8f1f06f4f5258a49e574b7a6c9ad22589326e865e9389b8f52",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/validation_import.py",
+      "target": "solsol/calculator/engine/validation_import.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "bff60cb9cbb4736edd4b3e2097628b32a53bf14225e12c9c4e8f80055f683f21",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/validation_service.py",
+      "target": "solsol/calculator/engine/validation_service.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "c27a011a65a87ccf2371b86fdd984da071b38c136f2e5e460b8b6347a29a96fd",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/verify_adapters.py",
+      "target": "solsol/calculator/engine/verify_adapters.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "797e05e357cf5638fb26ebf97b2756a43e5ff470cdfaf89d7eacca48d0e80340",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine/workflow.py",
+      "target": "solsol/calculator/engine/workflow.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "7497fdd2d3b03609a6d1b0110cfead13e80663742144a037102d557e87411d90",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/app.js",
+      "target": "solsol/calculator/web/app.js",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "b2653b61e0404591c2c52254d6a2af8d5c130a0b09e17ad29aa60977a1904070",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/contract-bridge.js",
+      "target": "solsol/calculator/web/contract-bridge.js",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "6471ea170880fd554a940e7cb0fb12f664d0ca54b4898134d83ac2db3cb014ad",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/demo-core.js",
+      "target": "solsol/calculator/web/demo-core.js",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "76ff99113fb8cb68b7924e197ca67e6aa9f01a3123a88f4c18a702b95f10419f",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/demo.css",
+      "target": "solsol/calculator/web/demo.css",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "44d00cf3d5df4785563f3c8545da1a090340165e34552a5e9ae701eac429ebd5",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/demo.html",
+      "target": "solsol/calculator/web/demo.html",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "ca01cd63f7bc51acc0044cad4ff4974435174cbc76d420e80a2acc7503fcfc54",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/demo.js",
+      "target": "solsol/calculator/web/demo.js",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "cc32b787520f4eb0f8bd1afa0b668ca876e1786d6ba340a9fc25ced09933d9b9",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/experiment-workbench.css",
+      "target": "solsol/calculator/web/experiment-workbench.css",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "4c5a2e00852d46273eb35a811c19e2ec5735adaeae6d94a301c657f474040ca2",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/experiment-workbench.html",
+      "target": "solsol/calculator/web/experiment-workbench.html",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "d679f0285df78ec5b6d65bff987daeac26c30ac96b765c53ef663a3afe75f504",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/experiment-workbench.js",
+      "target": "solsol/calculator/web/experiment-workbench.js",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "53115d7046d33529b28e8715f60ef4596724507b23227307bc90c7584a76e928",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/hmsp-exec-example.json",
+      "status": "EXCLUDED_MODEL",
+      "reason": "Old device/quality-specific model registration, input example or physical cue semantics; generic workflow preserved in workspace configuration/neutral adapter and engine services",
+      "calculator_capabilities_removed": false
+    },
+    {
+      "source": "app/integrated/web/index.html",
+      "target": "solsol/calculator/web/index.html",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "d7bd98fba673e2e5194de04a48e8ca019182c02e541d8c73051e45f7f647106a",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-area-evidence.js",
+      "target": "solsol/calculator/web/live-area-evidence.js",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "5f5636240d58200c4cc0f672d0a6fe855dfeb3a43020d868d3935ff01d024811",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-core.js",
+      "target": "solsol/calculator/web/live-core.js",
+      "status": "ADAPTED",
+      "category": "active original workbench",
+      "target_sha256": "cd2998e99e1d1068cfc592ff9edcf46dcd8fa316ef9d3943ab3f547060c263a3",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-export.css",
+      "target": "solsol/calculator/web/live-export.css",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "2f7ca23971c602a9835280080399469af6db96356a2551bb284a09610a13bed1",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-export.js",
+      "target": "solsol/calculator/web/live-export.js",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "59b888e488688bd064e543da21a56ae720f76ae3f2b91db2c2a968c94348528d",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-front-insight.css",
+      "target": "solsol/calculator/web/live-front-insight.css",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "c6d9b4a244702916964dd6cd5c41a51afe4a18071d3fdcfa92a8e8e4ab960277",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-front-insight.js",
+      "target": "solsol/calculator/web/live-front-insight.js",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "a49b30c7a582cef5e574b482d10395cd27fb104551b05f9dcde321511c3095c7",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-grid-check.css",
+      "target": "solsol/calculator/web/live-grid-check.css",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "75e39d2f815e6b88fc8a1f8fc58629c67aa263a3059d660424d14e13d960a394",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-grid-check.js",
+      "target": "solsol/calculator/web/live-grid-check.js",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "d8d8ef9f054b4283fa43e1b7de7d07a9b9687e854925a8da2a600900980004a2",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-grid-view.js",
+      "target": "solsol/calculator/web/live-grid-view.js",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "2bbcb1ef4bf01820059749fb5b054f981e76bfe4af8594c93cf79ee842555853",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-hamming.js",
+      "target": "solsol/calculator/web/live-hamming.js",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "9c329265a55062fc237f5dd00024d95e56a5c60f487b3422cb2cd937cf05ba42",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-initial-context.css",
+      "target": "solsol/calculator/web/live-initial-context.css",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "93d7f1d18c47d21e32ee9d298158cd464e782d3a09c58525cebaa414ebff2ed6",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-initial-context.js",
+      "target": "solsol/calculator/web/live-initial-context.js",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "aef72944e374385c42ba6ca2d8e419e15cdc8f44097d4b4211390200354ba39c",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-inspector.css",
+      "target": "solsol/calculator/web/live-inspector.css",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "9ebfcf6a73a3210d36f9dcc8b1b0afb4d1b21e2d6c005ddc7f68cf169f1a09e3",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-inspector.js",
+      "target": "solsol/calculator/web/live-inspector.js",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "b7d640a1490aaa2ed830ee40ab37624fe4f2e4cf5323c400b18fb6c1fc696f57",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-point-picker.css",
+      "target": "solsol/calculator/web/live-point-picker.css",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "013981557edaaf8d8d766671690914ee1805b6db58aca152b6c172bd16aabc4d",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-point-picker.js",
+      "target": "solsol/calculator/web/live-point-picker.js",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "e383d71e8408c05b9e256ccaf4d3cbc829010a25e4dc242147fd4cae07aaf67b",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-product.css",
+      "target": "solsol/calculator/web/live-product.css",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "8ecdbb9c029f25c35a4d51432eee2b8f85e9c4e4919c732729825c45a631d506",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-progress.js",
+      "target": "solsol/calculator/web/live-progress.js",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "14822e1f3a419f7e3bd230527646ee68dfdef3ffd4d35f703a5760ee1762b4f4",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-quality-lineage.js",
+      "target": "solsol/calculator/web/live-quality-lineage.js",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "590a1d3e6d522ea5f065781a90dd255494017a915597a3b013f0eb52ca93397c",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-replay.css",
+      "target": "solsol/calculator/web/live-replay.css",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "4e4a639748ca6a5b47892947e73887057e3884c9078f9cd805263c06ad4ceae2",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-replay.js",
+      "target": "solsol/calculator/web/live-replay.js",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "16d821e53802917bbb8e7fe6d537310e8a3197ed6b616a44a7e14e00cf15e0fa",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-responsive.css",
+      "target": "solsol/calculator/web/live-responsive.css",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "27dd0bb8d9b8fb978e7f6383adb4384287a75db15165ae514698ecf9f048d615",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-run-archive.js",
+      "target": "solsol/calculator/web/live-run-archive.js",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "101055dc8c039e04ea35158fa64095e0b3cdd31941e9747a52a8421fb1d41ba9",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-run-comparison.js",
+      "target": "solsol/calculator/web/live-run-comparison.js",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "b9257cb7ae56cb51ec9e594b68f3e46cd2d3f693ec59fe8eb349deaffabaf139",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-selection.css",
+      "target": "solsol/calculator/web/live-selection.css",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "97a48b8e852bc94c6b0e1ae9becf1130ddeaed70434002053c65c65fbeb1bb79",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-selection.js",
+      "target": "solsol/calculator/web/live-selection.js",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "6d89b7efe639b8d6d31669ff7fec9f04c90b1dbcad039f32440cdd4cafc3d1fd",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-solution-quality-v73.css",
+      "target": "solsol/calculator/web/live-solution-quality-v73.css",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "b795820ee33f7d993d619b2c08873b3ad947da0acfd576381d63a7458c17a09d",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-solution-quality.css",
+      "target": "solsol/calculator/web/live-solution-quality.css",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "0ceb9d14e5edbead71de5c31f94f673c77a09ac8f1e3bf507fe60e4a590689ab",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-solution-quality.js",
+      "target": "solsol/calculator/web/live-solution-quality.js",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "c06f47cc9d331becf89f7d188c22a8d14dd066561906e127ae9fbeff0c8842f8",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-timing.js",
+      "target": "solsol/calculator/web/live-timing.js",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "9eac36b2b344b7f3c60bfb875e5339165c10b4a3b79f0a8537a7187187f2e1f4",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-transport.js",
+      "target": "solsol/calculator/web/live-transport.js",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "22da006bc9b30641bd6a8a65c7222dbcd979895b4f72a39e16f0b0c11c891a25",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-workspace.css",
+      "target": "solsol/calculator/web/live-workspace.css",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "cb2ff7bd1d3b1fcc71abac797eb48591d390bf6aea127c5a8f9e3e53e633e69e",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live-workspace.js",
+      "target": "solsol/calculator/web/live-workspace.js",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "c54f89c28bf59f9feb9a3fa76ca76d2fe327e1671dae8257fb39aa31be41f0c9",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live.css",
+      "target": "solsol/calculator/web/live.css",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "a36f254a6f4485afb31d32a7e982b63d1dad2d1fc150da7d9a066a9f3eb14c6c",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live.html",
+      "target": "solsol/calculator/web/live.html",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "cafbe1a05028f9fbe21a86220cf47c917bfb4b87fa33502d3f3b78212a6311ee",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/live.js",
+      "target": "solsol/calculator/web/live.js",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "5cfad30a88a2a32ddf5ea7169ed62e3812d48fb467cd874b54cb5a4702deb1e6",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/model-display.js",
+      "target": "solsol/calculator/web/model-display.js",
+      "status": "ADAPTED",
+      "category": "active original workbench",
+      "target_sha256": "0fb9440636ded5df28a96923f06b2c3e85bb31adb0bd10e1a1afd309680b6b46",
+      "symbol_replacements": {
+        "request": {
+          "target": "call",
+          "reason": "Removed device adapter validation/request replaced by neutral scenario boundary and exact frozen model-row presentation; full common view/configuration binding remains in workspace-configuration.js"
+        }
+      },
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/program-research.js",
+      "status": "EXCLUDED_MODEL",
+      "reason": "Old device/quality-specific model registration, input example or physical cue semantics; generic workflow preserved in workspace configuration/neutral adapter and engine services",
+      "calculator_capabilities_removed": false
+    },
+    {
+      "source": "app/integrated/web/prototype-detail.js",
+      "target": "solsol/calculator/web/prototype-detail.js",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "9859ccdb90fae36970a299793c62e8a169db44af759a7a9c6fe28f03b39cfc29",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/prototype.css",
+      "target": "solsol/calculator/web/prototype.css",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "95a2dc49bf60eaa671d6ac5bdcf4e38e973ea0e33a4bf5020afb7a5258f91443",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/prototype.html",
+      "target": "solsol/calculator/web/prototype.html",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "1573056a43475a210d5ec5d25227733a0668bd91d8a605cfca28fd59d2bdd82b",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/prototype.js",
+      "target": "solsol/calculator/web/prototype.js",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "ec08021c983b730b295e577d936830e606925cc44b6690c6c4a7647de4c2d220",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/qa-overlap.html",
+      "target": "solsol/calculator/web/qa-overlap.html",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "520b952c5b04aea96dec99f33f08d6ba3e6b16fa807a5df9ce8d00847c15c71d",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/qa-responsive.html",
+      "target": "solsol/calculator/web/qa-responsive.html",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "591c7c32e62401c239e44b56163eda795ec39906f5ff2ad3bbc9f1a70cb1d19b",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/quality-decision.js",
+      "target": "solsol/calculator/web/quality-decision.js",
+      "status": "PRESERVED",
+      "category": "active original workbench",
+      "target_sha256": "ac46f4ad1193d1010dc69ae7e4fe646bebbf7e53f3a0ad705810ffbe5c33d3ba",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/quality-guide.html",
+      "target": "solsol/calculator/web/quality-guide.html",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "78aaf1ef1e7d0c850c129b38e7983cf472e30d3fcb79a1d9b06c103a90249b30",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/rf.css",
+      "target": "solsol/calculator/web/rf.css",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "39f5459d35738516bf8f627ac9af913e18d7a39ba9e320a285bb4b657214e5ab",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/rf.html",
+      "target": "solsol/calculator/web/rf.html",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "2ab718311d1b1af09fe2a3ee2910dcc1cbcd734919270e7ed5c1cc8c2996a51f",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/rf.js",
+      "target": "solsol/calculator/web/rf.js",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "ed914cd30bc734a299f0081d54d377712e34007c4db5774f9bf26aa929ca5834",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/style.css",
+      "target": "solsol/calculator/web/style.css",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "7d47f2843991aebdca4110fae624fb7bc9b27ca78817d6ff320e973baf50e02d",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/v56-quality-gate-fixture.html",
+      "target": "solsol/calculator/web/v56-quality-gate-fixture.html",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "b82121a93c8d9ebc9f61f607e98998399327819d7c62b6071ba0c26eb5e1ae7e",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/v56-quality-gate-fixture.js",
+      "target": "solsol/calculator/web/v56-quality-gate-fixture.js",
+      "status": "PRESERVED",
+      "category": "historical/reference UI utility; not an enabled device/model shell",
+      "target_sha256": "a6430c68e07b8c6e527527e5ccf21ad6d4d0d8e5e07eb53ea7997107c55f7741",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workbench-shell.js",
+      "target": "solsol/calculator/web/workbench-shell.js",
+      "status": "PRESERVED",
+      "category": "active original workbench",
+      "target_sha256": "0d55c87c74fd03e025c46b502bc983a1d348f76dfdcb87321cd093600d844a9f",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace-baseline-validation.js",
+      "target": "solsol/calculator/web/workspace-baseline-validation.js",
+      "status": "PRESERVED",
+      "category": "active original workbench",
+      "target_sha256": "538927f525a471b872070fd5107d7b34ece39c72f7f29326b3a6cb364f10e389",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace-cancel.js",
+      "target": "solsol/calculator/web/workspace-cancel.js",
+      "status": "PRESERVED",
+      "category": "active original workbench",
+      "target_sha256": "106227826084d49ff7be29cfad386bc620a286f970fee627aad4f4e7f445b12a",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace-comparison.js",
+      "target": "solsol/calculator/web/workspace-comparison.js",
+      "status": "PRESERVED",
+      "category": "active original workbench",
+      "target_sha256": "2bf121c7cbeb75cc4335fbd8f753c2600bf9ef1b36da7bae93b433dad0247dc1",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace-configuration.js",
+      "target": "solsol/calculator/web/workspace-configuration.js",
+      "status": "ADAPTED",
+      "category": "active original workbench",
+      "target_sha256": "f344bb4d9db1762eec70dc229c7ffc6f0591e757a55c15cbebdaf2c965f66640",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace-cue-meaning.js",
+      "status": "EXCLUDED_MODEL",
+      "reason": "Old device/quality-specific model registration, input example or physical cue semantics; generic workflow preserved in workspace configuration/neutral adapter and engine services",
+      "calculator_capabilities_removed": false
+    },
+    {
+      "source": "app/integrated/web/workspace-diagnostics.css",
+      "target": "solsol/calculator/web/workspace-diagnostics.css",
+      "status": "PRESERVED",
+      "category": "active original workbench",
+      "target_sha256": "04dba6acc427383030250e348a8c05d98b93c87dc31242385211941ca56e82a3",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace-diagnostics.js",
+      "target": "solsol/calculator/web/workspace-diagnostics.js",
+      "status": "PRESERVED",
+      "category": "active original workbench",
+      "target_sha256": "210ff23d1189506e2b9fe9b2147bc4f721809d8fd8e758f2600c522403bee694",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace-guided-study.js",
+      "target": "solsol/calculator/web/workspace-guided-study.js",
+      "status": "PRESERVED",
+      "category": "active original workbench",
+      "target_sha256": "84bcc31c0ac5a679674abd11df956d854b5fb4651536fbed5bb64df17a15969b",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace-hmsp.js",
+      "status": "EXCLUDED_MODEL",
+      "reason": "Old device/quality-specific model registration, input example or physical cue semantics; generic workflow preserved in workspace configuration/neutral adapter and engine services",
+      "calculator_capabilities_removed": false
+    },
+    {
+      "source": "app/integrated/web/workspace-hmsp2d.js",
+      "status": "EXCLUDED_MODEL",
+      "reason": "Old device/quality-specific model registration, input example or physical cue semantics; generic workflow preserved in workspace configuration/neutral adapter and engine services",
+      "calculator_capabilities_removed": false
+    },
+    {
+      "source": "app/integrated/web/workspace-installation-domain.js",
+      "target": "solsol/calculator/web/workspace-installation-domain.js",
+      "status": "PRESERVED",
+      "category": "active original workbench",
+      "target_sha256": "034c54e3fa6234f5ebfed9694952b36ef9ebd1bb4f21e8e8a6a45eafaf89947f",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace-map-differences.js",
+      "target": "solsol/calculator/web/workspace-map-differences.js",
+      "status": "PRESERVED",
+      "category": "active original workbench",
+      "target_sha256": "4249d3cdf3f4c369fb57fb63c9fa3306bad2f06c809c2af7990635f53d776643",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace-model.js",
+      "target": "solsol/calculator/web/workspace-model.js",
+      "status": "ADAPTED",
+      "category": "active original workbench",
+      "target_sha256": "9fc20bf7fc0f81825a1e081b21f671d5c80392b40b60b9824e3c3edbb2abbb87",
+      "symbol_replacements": {
+        "validateCommonView": {
+          "target": "validate",
+          "reason": "Removed device adapter validation/request replaced by neutral scenario boundary and exact frozen model-row presentation; full common view/configuration binding remains in workspace-configuration.js"
+        }
+      },
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace-narrow-map.css",
+      "target": "solsol/calculator/web/workspace-narrow-map.css",
+      "status": "PRESERVED",
+      "category": "active original workbench",
+      "target_sha256": "b96f0bc47e653eb73658777df0a38fe26c3c914e1815ae058a017627d0bca1f4",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace-narrow-map.js",
+      "target": "solsol/calculator/web/workspace-narrow-map.js",
+      "status": "PRESERVED",
+      "category": "active original workbench",
+      "target_sha256": "41b72bb38fee64ad9667cf68d25d9ad101f1ff5b9228200d609a37b5f99ab72e",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace-placements.js",
+      "target": "solsol/calculator/web/workspace-placements.js",
+      "status": "PRESERVED",
+      "category": "active original workbench",
+      "target_sha256": "79c08009d7b56dd4997e62a91b7b9dab38b47be18747c10e2d6a11aa0aa627ca",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace-quality.css",
+      "target": "solsol/calculator/web/workspace-quality.css",
+      "status": "PRESERVED",
+      "category": "active original workbench",
+      "target_sha256": "1d0d4e6792d9d648f2057b28cb94397de1637b1cd771218cd9dd4c470785cb38",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace-quality.js",
+      "target": "solsol/calculator/web/workspace-quality.js",
+      "status": "PRESERVED",
+      "category": "active original workbench",
+      "target_sha256": "b179e6b4ed43575dfb32bc2747e89fa3dfdd3764b6d19a12dc3a65aeeaad7cc9",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace-research-models.js",
+      "status": "EXCLUDED_MODEL",
+      "reason": "Old device/quality-specific model registration, input example or physical cue semantics; generic workflow preserved in workspace configuration/neutral adapter and engine services",
+      "calculator_capabilities_removed": false
+    },
+    {
+      "source": "app/integrated/web/workspace-resource-study.js",
+      "target": "solsol/calculator/web/workspace-resource-study.js",
+      "status": "ADAPTED",
+      "category": "active original workbench",
+      "target_sha256": "17b94c7c2f884d7cd3b14af1b505a645196da888dcb55a7dcbe0ed79ed62602f",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace-resources.js",
+      "target": "solsol/calculator/web/workspace-resources.js",
+      "status": "ADAPTED",
+      "category": "active original workbench",
+      "target_sha256": "a02fcdd13e4dd4d5bcf4605ee1c3278823568b1d33e6047888d0bee1395e3704",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace-run-management.css",
+      "target": "solsol/calculator/web/workspace-run-management.css",
+      "status": "PRESERVED",
+      "category": "active original workbench",
+      "target_sha256": "98d64ac90c2e20e4b06b29b1a54f5eebc1762ad7c99e687e6816a6a0d38606e1",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace-run-management.js",
+      "target": "solsol/calculator/web/workspace-run-management.js",
+      "status": "ADAPTED",
+      "category": "active original workbench",
+      "target_sha256": "57c74aaf9eb58a09acbbf887f3c7d91a49a866b0a3777ff2d866d19caedf19f8",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace-runtime-latency.js",
+      "target": "solsol/calculator/web/workspace-runtime-latency.js",
+      "status": "PRESERVED",
+      "category": "active original workbench",
+      "target_sha256": "4af25d65e524724a07226b16141129c44a48027640bfdd0fdf9c8fb858bc85e8",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace-settings-stability.css",
+      "target": "solsol/calculator/web/workspace-settings-stability.css",
+      "status": "PRESERVED",
+      "category": "active original workbench",
+      "target_sha256": "39a69d9adc2676dcea8c2bb44126f78ac67265213c640f9de13fa2e7b137e129",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace-settings-stability.js",
+      "target": "solsol/calculator/web/workspace-settings-stability.js",
+      "status": "ADAPTED",
+      "category": "active original workbench",
+      "target_sha256": "613f99b7b827785b4565bcab5f49271341d26610df829575a831e36081334e9b",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace-spatial.js",
+      "target": "solsol/calculator/web/workspace-spatial.js",
+      "status": "PRESERVED",
+      "category": "active original workbench",
+      "target_sha256": "8456c81cb71c805b5323aba1f613fa068a36fef0075c589fce91988cc1d0daf0",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace-storage-recovery.js",
+      "target": "solsol/calculator/web/workspace-storage-recovery.js",
+      "status": "PRESERVED",
+      "category": "active original workbench",
+      "target_sha256": "bac2f6fdce0e5f4e759fb260a441c59bc605300467d77a11506ca6d0e3e5e720",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace-tradeoff.js",
+      "target": "solsol/calculator/web/workspace-tradeoff.js",
+      "status": "PRESERVED",
+      "category": "active original workbench",
+      "target_sha256": "4d90d11446c792f7b1bd6e67823f15f9429f3086931bff98ac7a23ee1ccca9b9",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace-validation.css",
+      "target": "solsol/calculator/web/workspace-validation.css",
+      "status": "PRESERVED",
+      "category": "active original workbench",
+      "target_sha256": "0c1ee4d97b85f5221a77cdc609f4027e52bb30b6ca5aaee2092d209592c050c9",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace-validation.js",
+      "target": "solsol/calculator/web/workspace-validation.js",
+      "status": "PRESERVED",
+      "category": "active original workbench",
+      "target_sha256": "d468c09c3c1bc6446480eab82ee7086b476898e975896606bdd3e94f344e06e2",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace-workflow.js",
+      "target": "solsol/calculator/web/workspace-workflow.js",
+      "status": "PRESERVED",
+      "category": "active original workbench",
+      "target_sha256": "9ba4f48a6a620784a7373cc52d485309115f9f78ab86bd0f4b5bd805ab4404ff",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace.css",
+      "target": "solsol/calculator/web/workspace.css",
+      "status": "PRESERVED",
+      "category": "active original workbench",
+      "target_sha256": "a8189bd873749f99649c74658a7cba19001887766f46f039b6dd74bbfd232e0c",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace.html",
+      "target": "solsol/calculator/web/workspace.html",
+      "status": "ADAPTED",
+      "category": "active original workbench",
+      "target_sha256": "42980b18b966026d7089f87508d075ec10724f78941865d07d5cbd2fd56d7237",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/web/workspace.js",
+      "target": "solsol/calculator/web/workspace.js",
+      "status": "ADAPTED",
+      "category": "active original workbench",
+      "target_sha256": "edf6c454347af5c48f1eaa163fe61c9e2cdeaa84aa5d405573b01a0e1220d703",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/browser-workflows.json",
+          "status": "PASS",
+          "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "quality/CODEX_PRODUCT_LOOP.md",
+      "target": "quality/CODEX_PRODUCT_LOOP.md",
+      "status": "PRESERVED",
+      "category": "preserved quality/contract document",
+      "target_sha256": "52600d7db83c84728c3c9b089d0e8e03316d79d0e6da9bb25918c2d4c55c56a8",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "quality/QUALITY_GATES.yaml and docs/evidence/full",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "quality/PRODUCT_QUALITY_STANDARD.md",
+      "target": "quality/PRODUCT_QUALITY_STANDARD.md",
+      "status": "PRESERVED",
+      "category": "preserved quality/contract document",
+      "target_sha256": "8d9e16e23b72d3705466ceff63c30f03577d91aeffa3a32fea4ffba94fa728c1",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "quality/QUALITY_GATES.yaml and docs/evidence/full",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "quality/QUALITY_GATES.yaml",
+      "target": "quality/QUALITY_GATES.yaml",
+      "status": "PRESERVED",
+      "category": "preserved quality/contract document",
+      "target_sha256": "54c628c65cff762f0cb90f93f1710de05f37537cbb9f3480f58dcce3e19e3ceb",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "quality/QUALITY_GATES.yaml and docs/evidence/full",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "quality/QUALITY_REPORT.schema.json",
+      "target": "quality/QUALITY_REPORT.schema.json",
+      "status": "PRESERVED",
+      "category": "preserved quality/contract document",
+      "target_sha256": "9dd29bb7fb0aef5df8a327f6134081c4ac3a8b796616b4efb2da09eb5e8c0694",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "quality/QUALITY_GATES.yaml and docs/evidence/full",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "quality/R06_LIVE_CONDITION_SEMANTIC_GATES_20260909.md",
+      "target": "quality/R06_LIVE_CONDITION_SEMANTIC_GATES_20260909.md",
+      "status": "PRESERVED",
+      "category": "preserved quality/contract document",
+      "target_sha256": "7253653bd599468b8a5c7d4b96e461bd8c300c9dd05d991b70d4ea27355b9f63",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "quality/QUALITY_GATES.yaml and docs/evidence/full",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "quality/R06_VISIBLE_WORKFLOW_OPERATIONS_SUPPLEMENT_20260909.md",
+      "target": "quality/R06_VISIBLE_WORKFLOW_OPERATIONS_SUPPLEMENT_20260909.md",
+      "status": "PRESERVED",
+      "category": "preserved quality/contract document",
+      "target_sha256": "36e8166b58ee9ec7ec56158229eedd301c613773dad8e8267f4b36deb28977f9",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "quality/QUALITY_GATES.yaml and docs/evidence/full",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "quality/R06_WORKBENCH_SCOPE_REASSESSMENT_20260909.md",
+      "target": "quality/R06_WORKBENCH_SCOPE_REASSESSMENT_20260909.md",
+      "status": "PRESERVED",
+      "category": "preserved quality/contract document",
+      "target_sha256": "d4b72193e4fc8c70a2db8be21ba3663285a1e759d9e7503811656ef0d25deebf",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "quality/QUALITY_GATES.yaml and docs/evidence/full",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "quality/UI_REAL_WORKLOAD_ADDENDUM_20260909.md",
+      "target": "quality/UI_REAL_WORKLOAD_ADDENDUM_20260909.md",
+      "status": "PRESERVED",
+      "category": "preserved quality/contract document",
+      "target_sha256": "b66bdeb479912398ae403f1498289a8cdc77847cf65b35c2d5f278b0f910ab01",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "quality/QUALITY_GATES.yaml and docs/evidence/full",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/engine_client.py",
+      "target": "solsol/calculator/engine_client.py",
+      "status": "ADAPTED",
+      "category": "active calculator",
+      "target_sha256": "2c229c89ca7c8527ceb797a0eee63c079bc91b79bcdb73d2616fc03d9cf39cb3",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/json_transport.py",
+      "target": "solsol/calculator/json_transport.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "f8db2c29b8920dc0ea45d03a1a7ea23f65db8cd12ee4729481bc4e877d3459b7",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/background_process.py",
+      "target": "solsol/calculator/background_process.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "0dd65cbddf9d6ac9e6c59c3d898a4035dbee5bcebf6c9327076ca34ee978a11b",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/model_service_client.py",
+      "target": "solsol/calculator/remote_model_client.py",
+      "status": "PRESERVED",
+      "category": "active calculator",
+      "target_sha256": "0b16285d28f6735989cbe6a9ba8f1a116a9ba23b5e9c32d838ae47caccc4b105",
+      "symbol_replacements": {},
+      "runtime_status": "PASS",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/tests.json",
+          "status": "PASS",
+          "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/model_io.py",
+      "target": "solsol/calculator/model_io.py",
+      "status": "PRESERVED",
+      "category": "preserved legacy compatibility/reference utility; old model capabilities not registered",
+      "target_sha256": "d2250ff08abd79941a5dab83fac4a6682682c17b3166c9c02a74e88979a87cb6",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/model_derived_api.py",
+      "target": "solsol/calculator/model_derived_api.py",
+      "status": "PRESERVED",
+      "category": "preserved legacy compatibility/reference utility; old model capabilities not registered",
+      "target_sha256": "b5fe01e3fe22bda6c0129791d78114103af87e848ddb808431ca4ba1652abd68",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/COMMON_UI_CONTRACT.md",
+      "target": "solsol/calculator/COMMON_UI_CONTRACT.md",
+      "status": "PRESERVED",
+      "category": "preserved quality/contract document",
+      "target_sha256": "7a8a7d9ea42ff3403b84597e07b2b2c890c81bd0b11eeeb3d343c40c53a3d9c3",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    },
+    {
+      "source": "app/integrated/ENGINE_ACCESS.md",
+      "target": "solsol/calculator/ENGINE_ACCESS.md",
+      "status": "ADAPTED",
+      "category": "preserved quality/contract document",
+      "target_sha256": "540573cdb321ac1f1ae5b276b41da65204dfbf2df0529e752eaff44ed4f001e6",
+      "symbol_replacements": {},
+      "runtime_status": "PRESERVED_NOT_EXECUTED",
+      "evidence": [
+        {
+          "path": "docs/evidence/full/source-preservation.json",
+          "status": "PASS",
+          "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+        }
+      ],
+      "active_capability_owner": "solsol/calculator/web/workspace.html + common engine quality/validation/results services",
+      "scope_note": "Preservation/runtime evidence covers this owner as part of its common workflow; does not certify every possible input or independent model science."
+    }
+  ],
+  "acceptance_evidence": {
+    "public_api_client": {
+      "path": "docs/evidence/full/tests.json",
+      "status": "PASS",
+      "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+    },
+    "all_initializers_solvers": {
+      "path": "docs/evidence/full/tests.json",
+      "status": "PASS",
+      "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+    },
+    "quality_jobs_resume_export": {
+      "path": "docs/evidence/full/tests.json",
+      "status": "PASS",
+      "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+    },
+    "set_search_quality": {
+      "path": "docs/evidence/full/tests.json",
+      "status": "PASS",
+      "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+    },
+    "comparison_resource_studies": {
+      "path": "docs/evidence/full/tests.json",
+      "status": "PASS",
+      "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+    },
+    "evidence_provenance": {
+      "path": "docs/evidence/full/tests.json",
+      "status": "PASS",
+      "sha256": "378a667427f83ff307ef3fa65c2c596fc9a5fc880b78885d80f13570451b7a35"
+    },
+    "full_ui_workflows": {
+      "path": "docs/evidence/full/browser-workflows.json",
+      "status": "PASS",
+      "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+    },
+    "run_storage_restore": {
+      "path": "docs/evidence/full/browser-workflows.json",
+      "status": "PASS",
+      "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+    },
+    "neutral_model_switch": {
+      "path": "docs/evidence/full/browser-workflows.json",
+      "status": "PASS",
+      "sha256": "a14ed4d94ca961bfcb43bd8e097f3b164e992a92522a4024cd5ca0c77a3de6a9"
+    },
+    "source_preservation": {
+      "path": "docs/evidence/full/source-preservation.json",
+      "status": "PASS",
+      "sha256": "ea4f200665f13e698585cc1c1f0bea05688b467e4cc9e9800a703d792c56c5be"
+    },
+    "independent_scope_review": {
+      "path": "docs/evidence/full/independent-review.json",
+      "status": "PASS",
+      "sha256": "439a7fe29ed7cfa077dadd3baaf8d042fdedbe170376b75237e86d72279596a0"
+    }
+  },
+  "limits": [
+    "Historical device model shells and fixtures are not enabled",
+    "Generic capability equivalence is bounded by recorded workflows; no field science or PRODUCT_EXIT certification",
+    "Old unimplemented quality-set/multi-seed-quality/robust-cost-proof routes are superseded by preserved common services, not falsely restored"
+  ]
+}

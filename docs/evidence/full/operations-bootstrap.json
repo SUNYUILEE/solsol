@@ -1,0 +1,115 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "action": "doctor",
+      "result": {
+        "schema": "RESEARCH_OPERATIONS_DOCTOR_V1",
+        "status": "PASS",
+        "checks": {
+          "project_root_exists": true,
+          "ops_root_exists": true,
+          "policy_valid": true,
+          "profile_valid": true,
+          "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]"
+        }
+      }
+    },
+    {
+      "action": "system-audit",
+      "result": {
+        "schema": "RESEARCH_OPERATING_SYSTEM_FULL_AUDIT_V1",
+        "created_at": "2026-11-02T08:05:33.838467Z",
+        "status": "PASS",
+        "structure_ready": true,
+        "authority_hierarchy": "RESEARCH_OPERATING_SYSTEM_OVER_RECORD_STRUCTURE",
+        "check_count": 11,
+        "passed_check_count": 11,
+        "failed_check_count": 0,
+        "checks": [
+          {
+            "check_id": "SYS-001",
+            "status": "PASS",
+            "detail": "record binding schema; path=00_research_ops/contracts/RECORD_STRUCTURE_BINDING_V2.json"
+          },
+          {
+            "check_id": "SYS-002",
+            "status": "PASS",
+            "detail": "G00-G11 exact ordered gate catalog"
+          },
+          {
+            "check_id": "SYS-003",
+            "status": "PASS",
+            "detail": "generic gates cannot self-author scientific thresholds"
+          },
+          {
+            "check_id": "SYS-004",
+            "status": "PASS",
+            "detail": "scientific runs require a separately approved domain profile"
+          },
+          {
+            "check_id": "SYS-005",
+            "status": "PASS",
+            "detail": "record structure paths; missing=[]"
+          },
+          {
+            "check_id": "SYS-006",
+            "status": "PASS",
+            "detail": "new-project empty record store initialized without recovery or scientific claims"
+          },
+          {
+            "check_id": "SYS-007",
+            "status": "PASS",
+            "detail": "portable package lineage excludes project-specific and historical RUN data"
+          },
+          {
+            "check_id": "SYS-008",
+            "status": "PASS",
+            "detail": "research operations strict audit"
+          },
+          {
+            "check_id": "SYS-009",
+            "status": "PASS",
+            "detail": "operating authority is above the record structure; explanation publication layer is read-only when present"
+          },
+          {
+            "check_id": "SYS-010",
+            "status": "PASS",
+            "detail": "no duplicate V7 record store may compete with V6"
+          },
+          {
+            "check_id": "SYS-011",
+            "status": "PASS",
+            "detail": "task closure requires exact task-bound R04 verification and R06 independent review"
+          }
+        ],
+        "operations_audit": {
+          "schema": "RESEARCH_OPERATIONS_STRICT_AUDIT_V1",
+          "created_at": "2026-11-02T08:05:33.835519Z",
+          "status": "PASS",
+          "task_count": 0,
+          "quarantined_partial_task_count": 0,
+          "failure_event_count": 0,
+          "open_failure_count": 0,
+          "policy_rule_count": 8,
+          "project_id": "SOLSOL-NEUTRAL-CALCULATOR",
+          "error_count": 0,
+          "errors": []
+        },
+        "record_recovery": {
+          "status": "NOT_APPLICABLE_NEW_PROJECT",
+          "selected_source_count": null,
+          "classifiable_event_count": null,
+          "active_recovery_blockers": [],
+          "active_chat_incremental_sync_complete": true
+        },
+        "open_scope_specific_failures": [],
+        "new_task_requires_scope_preflight": true,
+        "optimizer_authorized_by_this_audit": false,
+        "model_or_gate_change_authorized_by_this_audit": false,
+        "hooks_are_defense_in_depth_not_authority": true
+      }
+    }
+  ],
+  "scope": "new empty neutral record system; operational structure is not scientific validation"
+}

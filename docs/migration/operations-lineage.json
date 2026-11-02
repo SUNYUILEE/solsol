@@ -1,0 +1,234 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "source": "research_ops.py",
+      "target": "research_ops.py",
+      "source_sha256": "38315a83c3b9e2717e17f682732bac8bc58a0ffb752297922fe0c83f9f940ff5",
+      "target_sha256": "38315a83c3b9e2717e17f682732bac8bc58a0ffb752297922fe0c83f9f940ff5"
+    },
+    {
+      "source": "research_recovery.py",
+      "target": "research_recovery.py",
+      "source_sha256": "da8355419fd980d41060c81eee6f2a23f8e6366c4e46b7e8676026087706c969",
+      "target_sha256": "da8355419fd980d41060c81eee6f2a23f8e6366c4e46b7e8676026087706c969"
+    },
+    {
+      "source": "00_research_ops/RESEARCH_SYSTEM_ARCHITECTURE.md",
+      "target": "00_research_ops/RESEARCH_SYSTEM_ARCHITECTURE.md",
+      "source_sha256": "3bc7552bddca13332b1a86357e3befd56214b387351d59c8819ff20b8f10421c",
+      "target_sha256": "3bc7552bddca13332b1a86357e3befd56214b387351d59c8819ff20b8f10421c"
+    },
+    {
+      "source": "00_research_ops/contracts/GATE_CATALOG_V7.json",
+      "target": "00_research_ops/contracts/GATE_CATALOG_V7.json",
+      "source_sha256": "12bf6a682e02fe4d2ef06f411fe58ae498a6eb2dbef9df9efc6bc6c820edb636",
+      "target_sha256": "12bf6a682e02fe4d2ef06f411fe58ae498a6eb2dbef9df9efc6bc6c820edb636"
+    },
+    {
+      "source": "00_research_ops/contracts/RECORD_STRUCTURE_BINDING_V2.json",
+      "target": "00_research_ops/contracts/RECORD_STRUCTURE_BINDING_V2.json",
+      "source_sha256": "1821356057f52877aac31156b408282dff455d0f5c8ecf48a2c00d46fcceb95b",
+      "target_sha256": "1821356057f52877aac31156b408282dff455d0f5c8ecf48a2c00d46fcceb95b"
+    },
+    {
+      "source": "00_research_ops/contracts/PROMOTION_STATE_MACHINE_V1.json",
+      "target": "00_research_ops/contracts/PROMOTION_STATE_MACHINE_V1.json",
+      "source_sha256": "0e8e289dd99e69c7bc7c5cdd6f47f4aa8c38f0490161825cca18a0d162a37b3b",
+      "target_sha256": "0e8e289dd99e69c7bc7c5cdd6f47f4aa8c38f0490161825cca18a0d162a37b3b"
+    },
+    {
+      "source": "00_research_ops/contracts/GIT_PROMOTION_RECEIPT_V1.schema.json",
+      "target": "00_research_ops/contracts/GIT_PROMOTION_RECEIPT_V1.schema.json",
+      "source_sha256": "19feb29c366f3885ca34ccb4bdd027df1536ed7a086204cdfd919a334249fa89",
+      "target_sha256": "19feb29c366f3885ca34ccb4bdd027df1536ed7a086204cdfd919a334249fa89"
+    },
+    {
+      "source": "00_research_ops/policies/GIT_PROMOTION_POLICY_V1.json",
+      "target": "00_research_ops/policies/GIT_PROMOTION_POLICY_V1.json",
+      "source_sha256": "117007521ef02b24db908305c37f580573f711957f8865c85ca0db57a106c125",
+      "target_sha256": "117007521ef02b24db908305c37f580573f711957f8865c85ca0db57a106c125"
+    },
+    {
+      "source": ".agents/skills/research-operations-continuity/SKILL.md",
+      "target": ".agents/skills/research-operations-continuity/SKILL.md",
+      "source_sha256": "f6d0925627135be648670ee73e97c2af02e195be25a638b9f964da3cbc80b3e4",
+      "target_sha256": "f6d0925627135be648670ee73e97c2af02e195be25a638b9f964da3cbc80b3e4"
+    },
+    {
+      "source": ".agents/skills/연구기록_전체복구/SKILL.md",
+      "target": ".agents/skills/연구기록_전체복구/SKILL.md",
+      "source_sha256": "77c1cd2eec2c1d3fd88ec7ddd6b0a505fcc623c682a05fc580415aa3a522ba72",
+      "target_sha256": "77c1cd2eec2c1d3fd88ec7ddd6b0a505fcc623c682a05fc580415aa3a522ba72"
+    },
+    {
+      "source": "06_code/harnesses/research_operations/src/research_ops/cli.py",
+      "target": "06_code/harnesses/research_operations/src/research_ops/cli.py",
+      "source_sha256": "785b4ccbdad93cb720503a14d4f60d70e45e3db2d1f9b57bfdb0f535942d24a2",
+      "target_sha256": "785b4ccbdad93cb720503a14d4f60d70e45e3db2d1f9b57bfdb0f535942d24a2"
+    },
+    {
+      "source": "06_code/harnesses/research_operations/src/research_ops/core.py",
+      "target": "06_code/harnesses/research_operations/src/research_ops/core.py",
+      "source_sha256": "8086bc596736b66e11cfc0b784e1ecd17b3bd9e215ecb9649efd69693ae76e18",
+      "target_sha256": "8086bc596736b66e11cfc0b784e1ecd17b3bd9e215ecb9649efd69693ae76e18"
+    },
+    {
+      "source": "06_code/harnesses/research_operations/src/research_ops/goal_progress.py",
+      "target": "06_code/harnesses/research_operations/src/research_ops/goal_progress.py",
+      "source_sha256": "063537adf91f675624246aec3d9e6749ecf493c3912c77541be649e25b2e9ea1",
+      "target_sha256": "063537adf91f675624246aec3d9e6749ecf493c3912c77541be649e25b2e9ea1"
+    },
+    {
+      "source": "06_code/harnesses/research_operations/src/research_ops/__init__.py",
+      "target": "06_code/harnesses/research_operations/src/research_ops/__init__.py",
+      "source_sha256": "9d078074f92a83e0a5750bd635ca8180ebd866ed8b996435760408e7df681d72",
+      "target_sha256": "9d078074f92a83e0a5750bd635ca8180ebd866ed8b996435760408e7df681d72"
+    },
+    {
+      "source": "06_code/harnesses/research_operations/tests/test_research_ops.py",
+      "target": "06_code/harnesses/research_operations/tests/test_research_ops.py",
+      "source_sha256": "90925dfbc974b4fd911e3cb5c15644b14058834af32c70155acfc03f7be15ed9",
+      "target_sha256": "90925dfbc974b4fd911e3cb5c15644b14058834af32c70155acfc03f7be15ed9"
+    },
+    {
+      "source": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/audit.py",
+      "target": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/audit.py",
+      "source_sha256": "dc3fd2132099539b88410cfb34610db6b4d4bb8bd9ca4bbf84882deb3dc6e40d",
+      "target_sha256": "dc3fd2132099539b88410cfb34610db6b4d4bb8bd9ca4bbf84882deb3dc6e40d"
+    },
+    {
+      "source": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/batching.py",
+      "target": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/batching.py",
+      "source_sha256": "a20b28fdcc2143a2c88f16cbfb60ab905b95493f6fb343ca74579916cbbdce1f",
+      "target_sha256": "a20b28fdcc2143a2c88f16cbfb60ab905b95493f6fb343ca74579916cbbdce1f"
+    },
+    {
+      "source": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/checkpoint.py",
+      "target": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/checkpoint.py",
+      "source_sha256": "2a6f80789b485c03f6a3eab31d2f2bb793ba01772d47603dbfdd4c5d72957fcb",
+      "target_sha256": "2a6f80789b485c03f6a3eab31d2f2bb793ba01772d47603dbfdd4c5d72957fcb"
+    },
+    {
+      "source": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/classify.py",
+      "target": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/classify.py",
+      "source_sha256": "564294514ddc8bc748e5a5bf79122728a06d4d4eff3273f179c95fd968223ddb",
+      "target_sha256": "564294514ddc8bc748e5a5bf79122728a06d4d4eff3273f179c95fd968223ddb"
+    },
+    {
+      "source": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/cleanup.py",
+      "target": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/cleanup.py",
+      "source_sha256": "47e42b9dfacc707b9d8bedfe8abbb4f872d32b47a8bd97a2e85131b6cfccd184",
+      "target_sha256": "47e42b9dfacc707b9d8bedfe8abbb4f872d32b47a8bd97a2e85131b6cfccd184"
+    },
+    {
+      "source": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/cleanup_stream.py",
+      "target": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/cleanup_stream.py",
+      "source_sha256": "0c7109585bc28dc417b3aefcea0a4a6ff3e5a3bd129060842d1c794beb7980a2",
+      "target_sha256": "0c7109585bc28dc417b3aefcea0a4a6ff3e5a3bd129060842d1c794beb7980a2"
+    },
+    {
+      "source": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/cli.py",
+      "target": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/cli.py",
+      "source_sha256": "349bc3568315968080eebb3753d151e6505b1f6b7595ffac343011a494f4e49b",
+      "target_sha256": "349bc3568315968080eebb3753d151e6505b1f6b7595ffac343011a494f4e49b"
+    },
+    {
+      "source": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/codex_parser.py",
+      "target": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/codex_parser.py",
+      "source_sha256": "0dad8952f7e2ebecb39c22f3e756b0f6c147b8c3792ba0ad9c6a20ff5051b01e",
+      "target_sha256": "0dad8952f7e2ebecb39c22f3e756b0f6c147b8c3792ba0ad9c6a20ff5051b01e"
+    },
+    {
+      "source": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/conflicts.py",
+      "target": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/conflicts.py",
+      "source_sha256": "40806211c6f46d783e52d642f25e9ac44c0946fa3d13a9c7e124f593e57deb0c",
+      "target_sha256": "40806211c6f46d783e52d642f25e9ac44c0946fa3d13a9c7e124f593e57deb0c"
+    },
+    {
+      "source": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/discover.py",
+      "target": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/discover.py",
+      "source_sha256": "26b86ba60e33024965e9e0cf1233b907c5d7491b1e2682ac4ae75477dafe642f",
+      "target_sha256": "26b86ba60e33024965e9e0cf1233b907c5d7491b1e2682ac4ae75477dafe642f"
+    },
+    {
+      "source": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/incremental.py",
+      "target": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/incremental.py",
+      "source_sha256": "629894e35705d0033aa3c8640196ea52cf06ec594dcebff3225c125db90df5e0",
+      "target_sha256": "629894e35705d0033aa3c8640196ea52cf06ec594dcebff3225c125db90df5e0"
+    },
+    {
+      "source": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/project_scan.py",
+      "target": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/project_scan.py",
+      "source_sha256": "479c0e094e4c4046e088117dc424709585082e597734f047b82f0b8ec91c84e5",
+      "target_sha256": "479c0e094e4c4046e088117dc424709585082e597734f047b82f0b8ec91c84e5"
+    },
+    {
+      "source": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/render.py",
+      "target": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/render.py",
+      "source_sha256": "066549530f94d43d0da9515a0a9e5868a445d9d441101709f5a79da60e6c16e0",
+      "target_sha256": "066549530f94d43d0da9515a0a9e5868a445d9d441101709f5a79da60e6c16e0"
+    },
+    {
+      "source": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/review.py",
+      "target": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/review.py",
+      "source_sha256": "ca16883ceafcd705f8d22d9f0b1f1fe2a394126a932300d4a82e50d47e6edb28",
+      "target_sha256": "ca16883ceafcd705f8d22d9f0b1f1fe2a394126a932300d4a82e50d47e6edb28"
+    },
+    {
+      "source": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/review_classification.py",
+      "target": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/review_classification.py",
+      "source_sha256": "a64cc34924895601391bbabf37d43eff4fd1392c17fbe3e4b199814ecba7e754",
+      "target_sha256": "a64cc34924895601391bbabf37d43eff4fd1392c17fbe3e4b199814ecba7e754"
+    },
+    {
+      "source": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/roles.py",
+      "target": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/roles.py",
+      "source_sha256": "928b48741960f0b0c08babd7ccd1f15c783e298a2cfcae97aa6371939157caeb",
+      "target_sha256": "928b48741960f0b0c08babd7ccd1f15c783e298a2cfcae97aa6371939157caeb"
+    },
+    {
+      "source": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/utils.py",
+      "target": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/utils.py",
+      "source_sha256": "edcd21050d9aa69b76170964ffe8b2865b2384d3cd037afb540160ec75258f54",
+      "target_sha256": "edcd21050d9aa69b76170964ffe8b2865b2384d3cd037afb540160ec75258f54"
+    },
+    {
+      "source": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/__init__.py",
+      "target": "06_코드/harnesses/연구기록_전체복구기/src/research_recovery/__init__.py",
+      "source_sha256": "3fe62c7462c95777034af128c98039c0f27a6aaa0315e82cf4c6efe85e7ce498",
+      "target_sha256": "3fe62c7462c95777034af128c98039c0f27a6aaa0315e82cf4c6efe85e7ce498"
+    },
+    {
+      "source": "06_코드/harnesses/연구기록_전체복구기/schemas/classification.schema.json",
+      "target": "06_코드/harnesses/연구기록_전체복구기/schemas/classification.schema.json",
+      "source_sha256": "18498410112381dd23b77179f259f19a9e04796ce4cd063d2d903d6a87f833e8",
+      "target_sha256": "18498410112381dd23b77179f259f19a9e04796ce4cd063d2d903d6a87f833e8"
+    },
+    {
+      "source": "06_코드/harnesses/연구기록_전체복구기/schemas/classification_review.schema.json",
+      "target": "06_코드/harnesses/연구기록_전체복구기/schemas/classification_review.schema.json",
+      "source_sha256": "56825dd148c926f14997d5f124b1e618709de16d41ed2dc3c4efd621c3a0b07a",
+      "target_sha256": "56825dd148c926f14997d5f124b1e618709de16d41ed2dc3c4efd621c3a0b07a"
+    },
+    {
+      "source": "06_코드/harnesses/연구기록_전체복구기/schemas/conflict_review.schema.json",
+      "target": "06_코드/harnesses/연구기록_전체복구기/schemas/conflict_review.schema.json",
+      "source_sha256": "f3afb4bcfc8123d8ed5f3871205e771251aae057d569bc1385b63bd73e758cc0",
+      "target_sha256": "f3afb4bcfc8123d8ed5f3871205e771251aae057d569bc1385b63bd73e758cc0"
+    },
+    {
+      "source": "06_코드/harnesses/연구기록_전체복구기/schemas/recovery_audit.schema.json",
+      "target": "06_코드/harnesses/연구기록_전체복구기/schemas/recovery_audit.schema.json",
+      "source_sha256": "5d45fa7e43d68de73d3515f29222b4f32b9cb69a6abcb706de0d57e8ed4fded6",
+      "target_sha256": "5d45fa7e43d68de73d3515f29222b4f32b9cb69a6abcb706de0d57e8ed4fded6"
+    },
+    {
+      "source": "06_코드/harnesses/연구기록_전체복구기/schemas/recovery_request.schema.json",
+      "target": "06_코드/harnesses/연구기록_전체복구기/schemas/recovery_request.schema.json",
+      "source_sha256": "0da40a1a77f4ac4e86403b050a249d012e8a1bbd0f4948b506152c794dad5e5c",
+      "target_sha256": "0da40a1a77f4ac4e86403b050a249d012e8a1bbd0f4948b506152c794dad5e5c"
+    }
+  ],
+  "historical_results_included": false
+}

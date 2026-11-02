@@ -1,0 +1,22 @@
+{
+  "approved_artifacts_path": "00_research_ops/approved_artifacts.jsonl",
+  "failure_registry_path": "00_research_ops/failures/failure_registry.jsonl",
+  "mandatory_project_instructions": [
+    "AGENTS.md",
+    "00_research_ops/START_HERE.md",
+    "00_research_ops/RESEARCH_SYSTEM_ARCHITECTURE.md",
+    "00_research_ops/contracts/GATE_CATALOG_V7.json",
+    "00_research_ops/contracts/RECORD_STRUCTURE_BINDING_V2.json",
+    "00_research_ops/policies/GIT_PROMOTION_POLICY_V1.json"
+  ],
+  "project_id": "SOLSOL-NEUTRAL-CALCULATOR",
+  "recovery_harness": "research_recovery.py",
+  "research_domain": "Model-neutral sensor placement, MOEA, shared resources, LOS and reproducible evidence",
+  "roles_path": "00_research_ops/ROLE_REGISTRY.json",
+  "schema": "RESEARCH_OPERATIONS_PROJECT_PROFILE_V1",
+  "workspace_root": ".",
+  "record_system_mode": "NEW_PROJECT_EMPTY_V3",
+  "source_import_mode": "MIGRATED_SOURCES_READ_ONLY_V1",
+  "new_project_initialization_evidence": "00_research_ops/evidence/NEW_PROJECT_INITIALIZATION.json",
+  "portable_package_lineage_evidence": "00_research_ops/evidence/PORTABLE_PACKAGE_LINEAGE.json"
+}

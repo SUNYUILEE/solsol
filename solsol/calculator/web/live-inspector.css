@@ -1,0 +1,38 @@
+#mapInspector{width:calc(100vw - 32px);max-width:1600px;height:calc(100dvh - 32px);max-height:none;box-sizing:border-box;padding:0;border:1px solid #97afbf;border-radius:10px;color:#17394e;background:white;overflow:hidden}
+#mapInspector::backdrop{background:#122d45b8}
+#mapInspector[open]{display:grid;grid-template-rows:auto auto minmax(0,1fr)}
+.inspectHeader{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;padding:16px 20px;border-bottom:1px solid #ccdbe5;background:#f3f8fb}
+.inspectHeader h2{margin:0;font-size:24px;line-height:1.25}.inspectHeader p{margin:6px 0 0;font-size:14px;line-height:1.55;overflow-wrap:anywhere}.inspectHeader button{white-space:nowrap;min-height:44px}
+.inspectControls{display:flex;gap:16px;align-items:center;flex-wrap:wrap;padding:10px 20px;border-bottom:1px solid #ccdbe5}.inspectControls label{display:flex;gap:8px;align-items:center;font-size:14px}.inspectControls select{min-height:44px;padding:6px;max-width:230px}.inspectControls input{width:auto}
+.inspectBody{display:grid;grid-template-columns:minmax(0,1fr) 270px;gap:16px;min-height:0;padding:12px 16px;box-sizing:border-box;overflow:hidden;align-items:start}
+.inspectCanvas{min-width:0}.inspectViewport{overflow:auto;max-height:calc(100dvh - 272px);border:1px solid #acbeca;background:#f6f9fb}.inspectViewport:focus-visible{outline:3px solid #0c678d;outline-offset:2px}#inspectMap{min-width:640px;margin:0 auto}#inspectMap svg{width:100%;height:auto;display:block}
+.inspectLegend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:14px;padding:10px 2px;line-height:1.8}.inspectLegend b{font-size:18px}.inspectCaption{font-size:13px;line-height:1.7;margin:6px 0}.inspectAside{padding-bottom:20px}.inspectMission{padding:12px 14px;margin:0 0 12px;border:1px solid #cadbe5;border-left:4px solid #167050;border-radius:6px;box-shadow:none;scroll-margin-top:0}.inspectMission.isShort{border-left-color:#a84912;background:#fff9f1}.inspectMission h3{font-size:16px;margin:0 0 8px}.inspectMission h3 span{font-size:13px;float:right;font-weight:400}.inspectMission strong{font-size:26px;font-variant-numeric:tabular-nums}.inspectMission p{font-size:14px;margin:6px 0;line-height:1.6}.inspectMission small{font-size:12px;line-height:1.6;display:block}.inspectTarget{font-weight:700}.inspectAction{display:flex;justify-content:flex-end;margin:10px 0}
+.inspectLegend .identifyKey{color:#087d72}
+.inspectControls label{flex-direction:row}.inspectCanvas{height:100%;min-height:0;display:flex;flex-direction:column}.inspectViewport{min-height:0;max-height:none;flex:1}.inspectAside{height:100%;box-sizing:border-box;overflow:auto}.inspectHeader .inspectHeadline{font-size:15px;font-weight:650;margin-top:8px}.inspectCaption{font-size:12px}.inspectMission{padding:10px 12px;margin-bottom:8px}.inspectMission h3{margin-bottom:4px}.inspectMission p{margin:3px 0}.inspectMission strong{font-size:24px}
+#inspectMap{min-width:0}
+#mapInspector :is(button,select,input,.inspectViewport,.inspectAside):focus-visible{outline:3px solid #0b5277;outline-offset:3px}
+.inspectKeyboard{font-size:13px;line-height:1.6;margin:4px 0 0;color:#25465d}.inspectKeyboard kbd{font:inherit;font-weight:700}
+@media(max-width:850px){#mapInspector{width:calc(100vw - 12px);height:calc(100dvh - 12px)}.inspectBody{display:block;overflow:auto}.inspectCanvas{height:auto}.inspectAside{height:auto;overflow:visible}.inspectControls{gap:8px;padding:8px 12px}.inspectHeader{padding:12px}.inspectHeader h2{font-size:18px}.inspectViewport{max-height:55dvh;flex:none}.inspectMission{margin:8px 0}.inspectHeader p{max-width:60vw}}
+.inspectAction{gap:10px}.inspectPairBar{display:flex;align-items:center;gap:16px;padding:6px 20px;border-bottom:1px solid #ccdbe5}.inspectPairBar p{font-size:13px;margin:0}.inspectPairBar [role=group]{display:flex;gap:6px;flex-shrink:0}.inspectPairBar button{min-height:44px}.inspectPairBar button[aria-pressed=true]{background:#155b7c;color:white;border-color:#155b7c}.inspectPairSummary{margin:0;padding:8px 20px;background:#f3f8fb;border-top:1px solid #ccdbe5;font-size:14px;line-height:1.5;white-space:pre-line}.inspectHeader #inspectSource{font-size:13px}.inspectCanvas>.inspectCaption{display:none}.inspectLegend{padding:4px 2px;line-height:1.4}.inspectKeyboard{font-size:12px}
+.inspectPairButtons{display:flex;gap:6px}.inspectPairButtons button{min-height:44px}.inspectPairButtons button[aria-pressed=true]{background:#155b7c;color:white;border-color:#155b7c}.inspectHeader{padding:10px 16px}.inspectHeader h2{font-size:20px}.inspectControls{gap:10px;padding:8px 16px}.inspectPairSummary{border:1px solid #ccdbe5;border-radius:6px;padding:10px;margin-bottom:8px}.inspectHeader p{margin-top:4px}
+#inspectContext{display:block;font-size:13px;line-height:1.4;margin:3px 0}
+.inspectNavigation{padding:10px;border:1px solid #b8cddd;border-radius:6px;margin:0 0 10px;background:#f6fafc;scroll-margin-top:0;box-shadow:none}.inspectNavigation h3{margin:0 0 8px;font-size:16px}.inspectNavigation label{display:block;font-size:13px;margin:8px 0}.inspectNavigation select{width:100%;min-width:0;min-height:44px;padding:6px;font-size:13px}.inspectNavSteps{display:flex;gap:8px}.inspectNavSteps button{flex:1;min-height:44px;padding:6px;font-size:13px}.inspectNavigation p{font-size:12px;line-height:1.6;margin:8px 0 0}.inspectNavigation summary{font-size:13px;cursor:pointer;min-height:32px;padding-top:6px}.inspectNavigation[aria-busy=true]{border-color:#ad6408}
+@media(max-width:850px){.inspectPairSummary{font-size:13px;padding:6px 12px}#mapInspector{overflow:auto}#mapInspector[open]{grid-template-rows:auto auto minmax(240px,1fr)}.inspectBody{min-height:240px}}
+
+/* A map-first workspace: detailed settings scroll independently, never above the map. */
+#mapInspector[open]{grid-template-rows:auto minmax(0,1fr)}
+.inspectBody{grid-template-columns:minmax(0,1fr) 320px;gap:14px}
+.inspectHeader{padding:10px 16px}.inspectHeader h2{font-size:20px}.inspectHeader #inspectIdentity{font-size:12px;line-height:1.4;margin:4px 0 0}
+.inspectAside>.inspectPairButtons{margin-bottom:10px}.inspectAside>.inspectPairButtons button{flex:1;padding:8px}
+.inspectAside>.inspectHeadline{font-size:15px;font-weight:650;line-height:1.7;margin:6px 0 12px;padding:10px;background:#edf5fa;border-left:3px solid #186886}
+.inspectDisplayOptions,.inspectSourceDetails{margin:0 0 10px;border:1px solid #ccdbe5;border-radius:6px;background:#fff;padding:0}
+.inspectDisplayOptions>summary,.inspectSourceDetails>summary{font-size:14px;line-height:1.5;font-weight:600;padding:12px;cursor:pointer;min-height:44px;box-sizing:border-box}
+.inspectSourceDetails p{font-size:13px;line-height:1.7;margin:0;padding:0 12px 12px}
+.inspectControls{display:grid;grid-template-columns:1fr;padding:0 12px 12px;border:0;gap:8px}
+.inspectControls label{display:flex;align-items:center;justify-content:space-between;gap:10px;min-width:0;font-size:14px;line-height:1.45}
+.inspectControls select{max-width:none;min-width:0;width:150px}.inspectControls button{min-height:44px}
+.inspectControls label:has(input){justify-content:flex-start;min-height:38px;padding:0 4px}.inspectControls input{width:18px;height:18px;flex:0 0 auto}
+.inspectDisplayOptions[open]{background:#f7fbfd}.inspectDisplayOptions[open]>summary{border-bottom:1px solid #d5e2ea}.inspectControls button{font-weight:650}
+#mapInspector summary:focus-visible{outline:3px solid #0b5277;outline-offset:-3px}
+.inspectLegend{font-size:13px;gap:4px 12px}.inspectLegend b{font-size:16px}
+/* Narrow-screen overrides are owned by the later live-responsive.css stylesheet. */

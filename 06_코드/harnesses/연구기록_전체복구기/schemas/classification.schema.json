@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "batch_id": {"type": "string"},
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "event_id": {"type": "string"},
+          "research_relevance": {
+            "type": "string",
+            "enum": ["core", "supporting", "operational", "non_research", "duplicate"]
+          },
+          "primary_category": {
+            "type": "string",
+            "enum": [
+              "research_goal", "user_requirement", "scope_rule", "completion_criterion",
+              "user_correction", "user_question", "user_approval", "user_rejection",
+              "method", "model_definition", "objective_or_constraint", "algorithm",
+              "data_or_input", "implementation_action", "execution", "result",
+              "failure", "decision", "blocker", "task", "status_update",
+              "assistant_claim", "assistant_error", "collaboration", "other"
+            ]
+          },
+          "normalized_statement": {"type": "string"},
+          "status_effect": {
+            "type": "string",
+            "enum": ["create", "update", "supersede", "confirm", "reject", "none"]
+          },
+          "source_authority": {
+            "type": "string",
+            "enum": ["user_explicit", "user_implicit", "assistant_statement", "tool_evidence", "file_evidence", "system"]
+          },
+          "document_targets": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "01_목표", "02_상태", "03_방법", "04_근거", "05_데이터", "06_코드",
+                "07_실행", "08_검증", "09_실패", "10_결정", "11_재현", "12_협업",
+                "연구연혁", "반영안함"
+              ]
+            },
+            "minItems": 1
+          },
+          "supersedes_event_ids": {"type": "array", "items": {"type": "string"}},
+          "related_event_ids": {"type": "array", "items": {"type": "string"}},
+          "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+          "requires_human_review": {"type": "boolean"},
+          "exclusion_reason": {"type": ["string", "null"]}
+          ,"role_ids": {
+            "type": "array",
+            "items": {"type": "string", "enum": ["R00", "R01", "R02", "R03", "R04", "R05", "R06"]},
+            "minItems": 1
+          },
+          "project_scope": {"type": "string", "enum": ["GLOBAL", "ROLE_SCOPED"]},
+          "role_assignment_method": {"type": "string"},
+          "role_assignment_rule_ids": {"type": "array", "items": {"type": "string"}}
+        },
+        "required": [
+          "event_id", "research_relevance", "primary_category", "normalized_statement",
+          "status_effect", "source_authority", "document_targets", "supersedes_event_ids",
+          "related_event_ids", "confidence", "requires_human_review", "exclusion_reason"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "batch_notes": {"type": "array", "items": {"type": "string"}}
+  },
+  "required": ["batch_id", "records", "batch_notes"],
+  "additionalProperties": false
+}

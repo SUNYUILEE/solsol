@@ -1,0 +1,40 @@
+{
+  "roles": [
+    {
+      "may_approve_own_work": false,
+      "name": "coordinator",
+      "role_id": "R00"
+    },
+    {
+      "may_approve_own_work": false,
+      "name": "domain_and_inputs",
+      "role_id": "R01"
+    },
+    {
+      "may_approve_own_work": false,
+      "name": "method_and_model",
+      "role_id": "R02"
+    },
+    {
+      "may_approve_own_work": false,
+      "name": "execution",
+      "role_id": "R03"
+    },
+    {
+      "may_approve_own_work": false,
+      "name": "verification",
+      "role_id": "R04"
+    },
+    {
+      "may_approve_own_work": false,
+      "name": "integration_and_products",
+      "role_id": "R05"
+    },
+    {
+      "may_approve_own_work": false,
+      "name": "independent_audit",
+      "role_id": "R06"
+    }
+  ],
+  "schema": "RESEARCH_OPERATIONS_ROLE_REGISTRY_V1"
+}

@@ -1,110 +1,21 @@
 {
-  "schema": "SOLSOL_NEUTRAL_EXTRACTION_V1",
+  "schema": "SOLSOL_FULL_CALCULATOR_EXTRACTION_V2",
   "date": "2026-11-02",
   "source_read_only": true,
-  "source_git_head": "c35b485628a54b8f35aac65978ff694d7328c4f5",
-  "source_was_dirty": true,
-  "extracted": [
-    {
-      "source": "app/integrated/engine/placement.py",
-      "source_bytes": 5042,
-      "source_sha256": "984696b442ca7a313a58a82a3e3f052c4c6c43e9c72e4c985aa8998258f27784",
-      "target": "solsol/engine/placement.py",
-      "target_bytes": 5042,
-      "target_sha256": "984696b442ca7a313a58a82a3e3f052c4c6c43e9c72e4c985aa8998258f27784",
-      "mode": "full neutral module; LF and trailing blank-line normalization only"
-    },
-    {
-      "source": "app/integrated/engine/placement_statistics.py",
-      "source_bytes": 630,
-      "source_sha256": "c75297732e03fb8a38b3e0de959a6ac72bada81371d3f6e3fed7f34c938e2b36",
-      "target": "solsol/engine/placement_statistics.py",
-      "target_bytes": 630,
-      "target_sha256": "c75297732e03fb8a38b3e0de959a6ac72bada81371d3f6e3fed7f34c938e2b36",
-      "mode": "full neutral module; LF and trailing blank-line normalization only"
-    },
-    {
-      "source": "app/integrated/engine/placement_selection.py",
-      "source_bytes": 6947,
-      "source_sha256": "eef37376fb8639c5a0750c907adbcead3b4e3de92b84c99d6156271a521fb82d",
-      "target": "solsol/engine/placement_selection.py",
-      "target_bytes": 6947,
-      "target_sha256": "eef37376fb8639c5a0750c907adbcead3b4e3de92b84c99d6156271a521fb82d",
-      "mode": "full neutral module; LF and trailing blank-line normalization only"
-    },
-    {
-      "source": "app/integrated/engine/front_representatives.py",
-      "source_bytes": 4230,
-      "source_sha256": "6dec74d37986e48653d39f453f88ffe2a1e7b0ad80ad68a49d328cc53269c1dc",
-      "target": "solsol/engine/front_representatives.py",
-      "target_bytes": 4230,
-      "target_sha256": "6dec74d37986e48653d39f453f88ffe2a1e7b0ad80ad68a49d328cc53269c1dc",
-      "mode": "full neutral module; LF and trailing blank-line normalization only"
-    },
-    {
-      "source": "app/integrated/engine/binary_decision.py",
-      "source_bytes": 3738,
-      "source_sha256": "51bcf8419a5c0ecbc5b78ed0f9fa469ccbd460b7bb6d259b873cd7b31c0da2e5",
-      "target": "solsol/engine/binary_decision.py",
-      "target_bytes": 3738,
-      "target_sha256": "51bcf8419a5c0ecbc5b78ed0f9fa469ccbd460b7bb6d259b873cd7b31c0da2e5",
-      "mode": "full neutral module; LF and trailing blank-line normalization only"
-    },
-    {
-      "source": "app/integrated/engine/initialization.py",
-      "source_sha256": "e95f7bdc98a0fdd5ce18af56c3d7fc405463ec2122853dc38b27f7210c7938a4",
-      "source_bytes": 8979,
-      "target": "solsol/engine/inventory.py",
-      "target_sha256": "38788e22a9c463e825060ff8b8999074d8894a67a7cc9b67c2f8dd031abbe8ec",
-      "target_bytes": 4332,
-      "mode": "named neutral functions only",
-      "functions": [
-        "resource_bounds",
-        "resource_counts",
-        "assign",
-        "validate_resources",
-        "repair_all",
-        "randomized_resource_repair"
-      ]
-    }
-  ],
-  "architecture_references": [
-    {
-      "source": "app/integrated/engine/solver.py",
-      "source_sha256": "fe9286f30d2a6d912c58762641652f365e521894246c76e10628cf455281a45e",
-      "source_bytes": 17276,
-      "mode": "architecture reference only; old model branches not copied"
-    },
-    {
-      "source": "app/integrated/engine/archive.py",
-      "source_sha256": "466c8d8f1d588b670d46675de93c03f11166cd26576558178190163c3670746c",
-      "source_bytes": 10656,
-      "mode": "architecture reference only; old model branches not copied"
-    },
-    {
-      "source": "app/integrated/engine/common_initialization.py",
-      "source_sha256": "0266deb633bb45b92cbec360c5588dc1fb77e516ac4ff234a36a0ec9ae95b215",
-      "source_bytes": 16554,
-      "mode": "architecture reference only; old model branches not copied"
-    },
-    {
-      "source": "app/integrated/engine/store.py",
-      "source_sha256": "ccc29922b46f48af4af81908eda119c33e8d4eec2a0dbae4796d10b25d0bd44e",
-      "source_bytes": 51329,
-      "mode": "architecture reference only; old model branches not copied"
-    }
-  ],
-  "new_model": {
-    "id": "ABC_COVERAGE_RESOURCE_V1",
-    "version": "1.0.0",
-    "source": "new synthetic contract; no old model copied"
-  },
-  "excluded": [
-    "old device-specific models and formulas",
-    "historical experiment data, raw results, research PASS reports",
-    "external sibling model/validator projects",
-    "imported sources and references",
-    "credentials and local paths",
-    "runtime storage and environments"
-  ]
+  "historical_scientific_pass_inherited": false,
+  "active_program": "solsol/calculator",
+  "entrypoint": "python -m solsol serve",
+  "source_inventory": "docs/migration/source-inventory.json",
+  "source_files_inventoried": 179,
+  "source_functions_classes_controls": 2024,
+  "quality_gate_identifiers_preserved": 120,
+  "capability_dispositions": "docs/migration/capability-map.json",
+  "parity_gate": "docs/migration/parity-report.json",
+  "operations_lineage": "docs/migration/operations-lineage.json",
+  "prior_partial_export_history": "docs/migration/initial-partial-manifest.json",
+  "scope": "Preserve current common calculator engine/workbench/API/quality/evidence capabilities, replace device-specific model adapters, retain inactive references with explicit status",
+  "model_exclusions": "Old device-specific error/angle/steering/fusion models, registrations, examples and historical run data",
+  "neutral_models": "Explicit configurable sensor coverage, relations, shared resources, costs and geometric LOS; registered alternatives use isolated contracts",
+  "evidence": "08_검증/PROGRAM_QUALITY_INDEX.md",
+  "limits": "Bounded functional migration verification, not all-input/per-function certification, PRODUCT_EXIT, field sensor validity or global optimality"
 }

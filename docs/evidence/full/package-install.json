@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "checks": [
+    "fresh venv without system site packages",
+    "package installed with declared runtime dependencies only",
+    "isolated interpreter outside repository validates/submits/completes through same full HTTP service",
+    "product fingerprint frozen before source stage and unchanged after installed run"
+  ],
+  "product_sha256": "282be8a7d5de04aeca278da2c7ecf78fb3103cf221e1137dfeda3b7b4f998ff5"
+}
